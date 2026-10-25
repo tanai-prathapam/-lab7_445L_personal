@@ -535,14 +535,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECE445L:IRLD024PBF"
+		(symbol "ECE445L:NTR4501NT1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 6.35 5.715 0)
+				(at 9.525 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -552,8 +552,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "IRLD024PBF"
-				(at 16.51 -1.905 0)
+			(property "Value" "NTR4501NT1G"
+				(at 9.525 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -563,8 +563,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "ECE445L:DIP920W60P254L490H457Q4N"
-				(at 21.59 -94.92 0)
+			(property "Footprint" "ECE445L:SOT96P237X111-3N"
+				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -575,8 +575,8 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/91308/sihld24.pdf"
-				(at 21.59 -194.92 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTR4501N-D.PDF"
+				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -587,8 +587,8 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Vishay IRLD024PBF N-channel MOSFET Transistor, 2.5 A, 60 V, 4-Pin HVMDIP"
-				(at 0 -1.016 0)
+			(property "Description" "N channel MOSFEt; SOT-23"
+				(at 2.54 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -598,20 +598,8 @@
 					)
 				)
 			)
-			(property "Height" "4.57"
-				(at 21.59 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "844-IRLD024PBF"
-				(at 21.59 -494.92 0)
+			(property "Height" "1.11"
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -622,8 +610,8 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRLD024PBF?qs=cvaI6ThkwxvrmVanJu5OcQ%3D%3D"
-				(at 21.59 -594.92 0)
+			(property "Mouser Part Number" ""
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -634,8 +622,8 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 21.59 -694.92 0)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -646,8 +634,8 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "IRLD024PBF"
-				(at 21.59 -794.92 0)
+			(property "Manufacturer_Name" "onsemi"
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -658,10 +646,34 @@
 					(justify left top)
 				)
 			)
-			(symbol "IRLD024PBF_0_1"
+			(property "Manufacturer_Part_Number" "NTR4501NT1G"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "NTR4501NT1G_0_1"
 				(polyline
 					(pts
-						(xy 11.43 0.635) (xy 8.636 0.635)
+						(xy 5.334 1.905) (xy 5.334 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -673,7 +685,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.684 2.54) (xy 11.684 -1.27)
+						(xy 5.842 2.286) (xy 5.842 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -685,43 +697,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.192 2.921) (xy 12.192 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.192 1.143) (xy 12.192 0.127)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.192 -0.635) (xy 12.192 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.192 -1.143) (xy 14.732 -1.143) (xy 14.732 2.413) (xy 12.192 2.413)
+						(xy 5.842 -1.778) (xy 8.382 -1.778) (xy 8.382 1.778) (xy 5.842 1.778)
 					)
 					(stroke
 						(width 0)
@@ -733,7 +709,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.446 0.635) (xy 13.462 1.016) (xy 13.462 0.254) (xy 12.446 0.635)
+						(xy 6.096 0) (xy 7.112 0.381) (xy 7.112 -0.381) (xy 6.096 0)
 					)
 					(stroke
 						(width 0)
@@ -744,7 +720,7 @@
 					)
 				)
 				(circle
-					(center 13.081 0.635)
+					(center 6.731 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -756,7 +732,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 3.175) (xy 13.97 2.413)
+						(xy 7.62 2.54) (xy 7.62 1.778)
 					)
 					(stroke
 						(width 0)
@@ -767,7 +743,7 @@
 					)
 				)
 				(circle
-					(center 13.97 2.413)
+					(center 7.62 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -778,7 +754,7 @@
 					)
 				)
 				(circle
-					(center 13.97 -1.143)
+					(center 7.62 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -790,7 +766,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.97 -1.905) (xy 13.97 0.635) (xy 12.192 0.635)
+						(xy 7.62 -2.54) (xy 7.62 0) (xy 5.842 0)
 					)
 					(stroke
 						(width 0)
@@ -802,7 +778,7 @@
 				)
 				(polyline
 					(pts
-						(xy 14.224 1.143) (xy 14.351 1.016) (xy 15.113 1.016) (xy 15.24 0.889)
+						(xy 7.874 0.508) (xy 8.001 0.381) (xy 8.763 0.381) (xy 8.89 0.254)
 					)
 					(stroke
 						(width 0)
@@ -814,19 +790,7 @@
 				)
 				(polyline
 					(pts
-						(xy 14.732 1.016) (xy 14.351 0.381) (xy 15.113 0.381) (xy 14.732 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 3.175) (xy 13.97 3.175)
+						(xy 8.382 0.381) (xy 8.001 -0.254) (xy 8.763 -0.254) (xy 8.382 0.381)
 					)
 					(stroke
 						(width 0)
@@ -837,11 +801,11 @@
 					)
 				)
 			)
-			(symbol "IRLD024PBF_1_1"
-				(pin passive line
-					(at 13.97 5.715 270)
+			(symbol "NTR4501NT1G_1_1"
+				(pin input line
+					(at 0 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -857,9 +821,9 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 5.715 270)
+					(at 7.62 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -874,10 +838,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 5.715 0.635 0)
-					(length 4)
-					(name "G"
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -885,24 +849,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -4.445 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1037,6 +983,207 @@
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Motor_DC"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.7752) (xy 0 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1308,6 +1455,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "TFT Display"
 		(exclude_from_sim no)
@@ -1367,6 +1701,36 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 107.95) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032e07f1-ecb1-44a3-bc7b-81366fdee414")
+	)
+	(wire
+		(pts
+			(xy 120.65 92.71) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4e629c-6b87-41ef-9789-3d74d486fc15")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 63.5 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d222e41-a8d3-41b2-b0cb-9393f8c6da39")
+	)
+	(wire
+		(pts
 			(xy 53.975 29.21) (xy 53.975 32.385)
 		)
 		(stroke
@@ -1377,6 +1741,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 107.95) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195c7067-0c64-4d0e-add9-a9ade842c0e3")
+	)
+	(wire
+		(pts
 			(xy 49.53 29.21) (xy 53.975 29.21)
 		)
 		(stroke
@@ -1384,6 +1758,36 @@
 			(type default)
 		)
 		(uuid "26c1f75a-0422-4ce4-8e3d-db6cfbe3b216")
+	)
+	(wire
+		(pts
+			(xy 63.5 108.585) (xy 63.5 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d2f744-7cd0-435f-99e3-8152f68df55d")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 92.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e45f30-799c-477e-8f38-896595692b8d")
+	)
+	(wire
+		(pts
+			(xy 63.5 93.345) (xy 63.5 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d7bfa1-7f57-4cad-9bc4-c6d175669793")
 	)
 	(wire
 		(pts
@@ -1417,6 +1821,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 92.71) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d827093-8d13-4f77-9af7-bbf0d6585730")
+	)
+	(wire
+		(pts
 			(xy 191.77 64.135) (xy 179.07 64.135)
 		)
 		(stroke
@@ -1424,6 +1838,16 @@
 			(type default)
 		)
 		(uuid "72886844-80b0-470d-9059-3b59ca519099")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.105) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7898e72b-d53d-4d1e-886b-f7d6e19c6f32")
 	)
 	(wire
 		(pts
@@ -1474,6 +1898,76 @@
 			(type default)
 		)
 		(uuid "d0cb966a-f8fd-48e8-8b60-701ebb2562da")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.105) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de97289f-c293-4951-969f-6f01fac2496f")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0456360-bbc3-4040-94d6-12037aa7a75e")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.105) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea36a680-fc1c-41b1-bded-39791482b2a2")
+	)
+	(label "V_{g}"
+		(at 148.59 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07df7dec-9a7e-4a39-9968-3331ad50ae8d")
+	)
+	(label "V_{g}"
+		(at 120.65 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bf564b5-6360-4be5-af77-9292de35884e")
+	)
+	(label "V_{g}"
+		(at 92.71 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96958ac3-dcd3-4e95-88fe-268e355124cb")
+	)
+	(label "V_{g}"
+		(at 63.5 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f42ed9fa-50ce-4bca-9be6-00958ebcae0f")
 	)
 	(symbol
 		(lib_id "Device:D_Small")
@@ -1624,6 +2118,153 @@
 		)
 	)
 	(symbol
+		(lib_id "ECE445L:NTR4501NT1G")
+		(at 113.03 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bbb57f2-648f-48b9-adef-ffbe361b3a4d")
+		(property "Reference" "Q3"
+			(at 123.825 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTR4501NT1G"
+			(at 123.825 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECE445L:SOT96P237X111-3N"
+			(at 129.54 197.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTR4501N-D.PDF"
+			(at 129.54 297.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N channel MOSFEt; SOT-23"
+			(at 115.57 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.11"
+			(at 129.54 497.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-NTR4501NT1G"
+			(at 129.54 597.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "0.46"
+			(at 129.54 697.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 129.54 797.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTR4501NT1G"
+			(at 129.54 897.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "e8856e3c-805f-4fc0-b808-c3df78690bc2")
+		)
+		(pin "2"
+			(uuid "8fbe7a6c-3e45-4c29-a987-ee071ad3ac87")
+		)
+		(pin "3"
+			(uuid "5bccbb75-6723-4521-bedb-0d6217eff46a")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 26.67 0)
 		(unit 1)
@@ -1695,6 +2336,317 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:NTR4501NT1G")
+		(at 140.97 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282738a5-28da-405e-8f39-2728bd6fb8e0")
+		(property "Reference" "Q4"
+			(at 151.765 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTR4501NT1G"
+			(at 151.765 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECE445L:SOT96P237X111-3N"
+			(at 157.48 197.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTR4501N-D.PDF"
+			(at 157.48 297.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N channel MOSFEt; SOT-23"
+			(at 143.51 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.11"
+			(at 157.48 497.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-NTR4501NT1G"
+			(at 157.48 597.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "0.46"
+			(at 157.48 697.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 157.48 797.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTR4501NT1G"
+			(at 157.48 897.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "19cba85c-ab2e-4a1f-ab80-3c5eaf686a1f")
+		)
+		(pin "2"
+			(uuid "e07265bc-fb1b-477d-b38a-83456156183c")
+		)
+		(pin "3"
+			(uuid "bae4a6a9-b203-4fe9-81cf-80d9f1ebdfbb")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 92.71 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa9c009-7a41-404b-bb60-8fa0d1a658c7")
+		(property "Reference" "M2"
+			(at 97.79 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 97.79 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 92.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56abb042-4c2d-4076-a2f5-aa7d055b2334")
+		)
+		(pin "2"
+			(uuid "6095ff81-21ba-4d46-a277-d4d8de3b511d")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 63.5 85.725 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "379829d6-a9d8-4bd3-94af-fe510b7c4117")
+		(property "Reference" "M1"
+			(at 68.58 86.9949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 68.58 89.5349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 88.011 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 88.011 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 63.5 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7bfdba7-a7a6-4adc-b18c-308026cc6b14")
+		)
+		(pin "2"
+			(uuid "a1ace779-c43c-401f-9f8a-7472e4477e90")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -1861,8 +2813,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE445L:IRLD024PBF")
-		(at 25.4 46.355 0)
+		(lib_id "ECE445L:NTR4501NT1G")
+		(at 55.88 103.505 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1871,9 +2823,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7acf44e4-0bdd-4e50-9117-115c0ea3ba1c")
+		(uuid "79fba377-3242-4b71-a91d-66dd92d36a7d")
 		(property "Reference" "Q1"
-			(at 43.18 44.4499 0)
+			(at 66.675 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1883,8 +2835,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLD024PBF"
-			(at 43.18 46.9899 0)
+		(property "Value" "NTR4501NT1G"
+			(at 66.675 104.7749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1894,8 +2846,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:DIP920W60P254L490H457Q4N"
-			(at 46.99 141.275 0)
+		(property "Footprint" "ECE445L:SOT96P237X111-3N"
+			(at 72.39 198.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1906,8 +2858,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/91308/sihld24.pdf"
-			(at 46.99 241.275 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTR4501N-D.PDF"
+			(at 72.39 298.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1918,8 +2870,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Vishay IRLD024PBF N-channel MOSFET Transistor, 2.5 A, 60 V, 4-Pin HVMDIP"
-			(at 25.4 47.371 0)
+		(property "Description" "N channel MOSFEt; SOT-23"
+			(at 58.42 98.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1929,52 +2881,8 @@
 				)
 			)
 		)
-		(property "Cost" "1.67"
-			(at 25.4 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Mouser"
-			(at 25.4 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 25.4 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "IRLD024PBF"
-			(at 25.4 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4.57"
-			(at 46.99 441.275 0)
+		(property "Height" "1.11"
+			(at 72.39 498.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,8 +2893,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "844-IRLD024PBF"
-			(at 46.99 541.275 0)
+		(property "Mouser Part Number" "863-NTR4501NT1G"
+			(at 72.39 598.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1997,8 +2905,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/IRLD024PBF?qs=cvaI6ThkwxvrmVanJu5OcQ%3D%3D"
-			(at 46.99 641.275 0)
+		(property "Mouser Price/Stock" "0.46"
+			(at 72.39 698.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,8 +2917,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 46.99 741.275 0)
+		(property "Manufacturer_Name" "onsemi"
+			(at 72.39 798.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,8 +2929,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRLD024PBF"
-			(at 46.99 841.275 0)
+		(property "Manufacturer_Part_Number" "NTR4501NT1G"
+			(at 72.39 898.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2034,21 +2942,174 @@
 			)
 		)
 		(pin "1"
-			(uuid "a24acd82-2d05-4512-b8bd-05022f3b67dd")
+			(uuid "ae890848-4c0a-43d5-ac41-778db2ba1f7c")
 		)
 		(pin "2"
-			(uuid "9b09579f-2ee2-445a-9bdb-26db9a9dc705")
+			(uuid "9713685f-c7cb-415a-b47f-29b555a0553c")
 		)
 		(pin "3"
-			(uuid "6cf67c44-6224-4d9e-9fea-4cc68facb767")
-		)
-		(pin "4"
-			(uuid "27358ff6-d492-47c5-a3b6-9826842c250a")
+			(uuid "a234cc82-518e-4efd-a77e-290d0906d212")
 		)
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 92.71 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "856ead17-4795-4a95-8fed-0fdd75729936")
+		(property "Reference" "#PWR013"
+			(at 92.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 92.583 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 92.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "759b6b77-3454-4636-adad-579730bf6215")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 120.65 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b1e143-798d-4ff8-95b3-e0db4c706d3e")
+		(property "Reference" "#PWR014"
+			(at 120.65 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 120.523 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e020936b-d961-4db0-8b7a-9b2e7a0bae83")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2127,6 +3188,473 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 148.59 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c2c322-10a7-4d35-af9d-298d25c938f2")
+		(property "Reference" "#PWR017"
+			(at 148.59 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 148.463 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 148.59 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75aded38-bbff-46f2-acde-2b681e205d9a")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 63.5 112.395 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad02a449-f6bd-48b7-96f4-2bfe83dd6efa")
+		(property "Reference" "#PWR06"
+			(at 63.5 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 63.373 116.205 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 63.5 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9b2f3b2-0ad5-42e2-9e31-ef679fde2214")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 120.65 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8e0a7d1-c4f3-4808-a3c0-4a2beef46e09")
+		(property "Reference" "M3"
+			(at 125.73 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 125.73 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 120.65 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3d6497c-5ac1-4d3f-a457-58c8c59b608b")
+		)
+		(pin "2"
+			(uuid "8e659191-9cac-4cb5-b005-213a8a751634")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 148.59 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c872d17c-a649-4600-b9d5-a1c4150e833b")
+		(property "Reference" "M4"
+			(at 153.67 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 153.67 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db7e1bc3-27f2-49ec-a953-cca7ab20a2b6")
+		)
+		(pin "2"
+			(uuid "3b22a76c-546d-479a-af63-2c1d5f7d3433")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:NTR4501NT1G")
+		(at 85.09 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece86772-ec03-4534-9900-043d3c3a9625")
+		(property "Reference" "Q2"
+			(at 95.885 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTR4501NT1G"
+			(at 95.885 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECE445L:SOT96P237X111-3N"
+			(at 101.6 197.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTR4501N-D.PDF"
+			(at 101.6 297.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N channel MOSFEt; SOT-23"
+			(at 87.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.11"
+			(at 101.6 497.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "863-NTR4501NT1G"
+			(at 101.6 597.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "0.46"
+			(at 101.6 697.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 101.6 797.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTR4501NT1G"
+			(at 101.6 897.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "bacbbf6e-e2a1-473f-9388-f703d6249d33")
+		)
+		(pin "2"
+			(uuid "7d7d0942-e5d5-4b80-bd21-1b8767cf1e64")
+		)
+		(pin "3"
+			(uuid "b4543d86-c87c-43a4-8495-71ae856fa121")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
