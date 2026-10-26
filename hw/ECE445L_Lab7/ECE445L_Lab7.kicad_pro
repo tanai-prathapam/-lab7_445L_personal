@@ -705,7 +705,7 @@
         "uuid": "69b823fd-c065-40ff-9bb9-c5835555f3eb"
       }
     ],
-    "used_designators": "+3.3V1,#PWR4-6,#PWR10-32,#PWR36-37,C3-14,U1,U4-6,Y1-2,GND1,+5V1,SW6,R3,R7,J1-2,J4-6,M1-7,Q1-5,C_{b\\,1}1,C_{b\\,2}1,J_{flash\\,1}1",
+    "used_designators": "+3.3V1,#PWR4-6,#PWR10-40,C3-14,U1,U3-6,Y1-2,GND1,+5V1,SW6,R3,R7,J1-2,J4-6,M1-7,Q1-8,C_{b\\,1}1,C_{b\\,2}1,J_{flash\\,1}1,L1-2",
     "variants": []
   },
   "sheets": [

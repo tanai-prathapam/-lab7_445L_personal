@@ -338,6 +338,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 69.85 34.925)
+		(end 109.855 65.405)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "22129bc8-bf2a-4380-ba84-adcc91b5ef08")
+	)
+	(rectangle
+		(start 112.395 34.925)
+		(end 152.4 65.405)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "abf8edfe-a2f4-4c2f-a734-132db709f981")
+	)
+	(text "ID Reader"
+		(exclude_from_sim no)
+		(at 146.685 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50ae34d3-6e66-4b97-a33f-1dc1e3f672c0")
+	)
+	(text "Keypad"
+		(exclude_from_sim no)
+		(at 105.41 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73a63222-2fc6-4940-ad08-e4d8cd63d1f1")
+	)
 	(global_label "uC_{1} - KR1"
 		(shape output)
 		(at 87.63 40.005 180)
@@ -362,7 +406,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA23"
+	(global_label "uC_{1} - KR3"
 		(shape output)
 		(at 87.63 45.085 180)
 		(fields_autoplaced yes)
@@ -374,7 +418,7 @@
 		)
 		(uuid "783ae97e-dd1e-4ec9-863c-2e2fd0057ece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.973 45.085 0)
+			(at 74.0011 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -386,7 +430,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA11"
+	(global_label "uC_{1} - KC4"
 		(shape input)
 		(at 87.63 57.785 180)
 		(fields_autoplaced yes)
@@ -398,7 +442,7 @@
 		)
 		(uuid "87b6f86d-b5ac-479e-a7e7-9761f8e4d549")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.973 57.785 0)
+			(at 74.0011 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -434,7 +478,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA7"
+	(global_label "uC_{1} - KR2"
 		(shape output)
 		(at 87.63 42.545 180)
 		(fields_autoplaced yes)
@@ -446,7 +490,7 @@
 		)
 		(uuid "c812ec50-c302-4cc8-bc43-471e42735d5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1825 42.545 0)
+			(at 74.0011 42.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -482,7 +526,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA3"
+	(global_label "uC_{1} - KC3"
 		(shape input)
 		(at 87.63 55.245 180)
 		(fields_autoplaced yes)
@@ -494,7 +538,7 @@
 		)
 		(uuid "e71227b7-4462-46a8-bc46-ca56c6def844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1825 55.245 0)
+			(at 74.0011 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -542,7 +586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0009e371-cb48-408b-92c5-92fedb5d0e9e")
-		(property "Reference" "J2"
+		(property "Reference" "J_{Keypad}"
 			(at 95.885 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -564,7 +608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 92.71 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -624,7 +668,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
-					(reference "J2")
+					(reference "J_{Keypad}")
 					(unit 1)
 				)
 			)
