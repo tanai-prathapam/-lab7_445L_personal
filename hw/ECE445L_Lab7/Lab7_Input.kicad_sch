@@ -338,7 +338,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "uC_{1} - PA4"
+	(global_label "uC_{1} - KR1"
 		(shape output)
 		(at 87.63 40.005 180)
 		(fields_autoplaced yes)
@@ -350,7 +350,7 @@
 		)
 		(uuid "005e2517-2582-46cf-a962-2984f9e49ea0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1825 40.005 0)
+			(at 74.0011 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -410,7 +410,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA1"
+	(global_label "uC_{1} - KC2"
 		(shape input)
 		(at 87.63 52.705 180)
 		(fields_autoplaced yes)
@@ -422,7 +422,7 @@
 		)
 		(uuid "ad715f2e-0549-4f90-b878-461a057b4f9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1825 52.705 0)
+			(at 74.0011 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -458,7 +458,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA0"
+	(global_label "uC_{1} - KC1"
 		(shape input)
 		(at 87.63 50.165 180)
 		(fields_autoplaced yes)
@@ -470,7 +470,7 @@
 		)
 		(uuid "d664a032-80a0-4c24-8d7f-95b9167881fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1825 50.165 0)
+			(at 74.0011 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -506,7 +506,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA26"
+	(global_label "uC_{1} - KR4"
 		(shape output)
 		(at 87.63 47.625 180)
 		(fields_autoplaced yes)
@@ -518,7 +518,7 @@
 		)
 		(uuid "f2eff5f8-ec86-40c1-9156-5a397ff903a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.973 47.625 0)
+			(at 74.0011 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
