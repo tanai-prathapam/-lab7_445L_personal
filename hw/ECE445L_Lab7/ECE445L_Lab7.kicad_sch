@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "ECE 445L Lab7")
-		(date "2025-01-13")
-		(rev "v1.0.0")
-		(company "The University of Texas at Austin")
+		(date "2026-10-26")
+		(rev "A")
+		(company "ECE445L")
 	)
 	(lib_symbols
 		(symbol "ECE445L:MountingHole"
