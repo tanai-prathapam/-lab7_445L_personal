@@ -1457,18 +1457,6 @@
 		(uuid "2e71cda8-d744-44b8-9b8c-d6fc47f7e962")
 	)
 	(rectangle
-		(start 140.335 126.365)
-		(end 164.465 135.89)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "2fef0c20-fdd8-456b-8507-faa052da9596")
-	)
-	(rectangle
 		(start 97.79 85.725)
 		(end 158.115 114.3)
 		(stroke
@@ -1499,16 +1487,6 @@
 			)
 		)
 		(uuid "91a1038c-664c-45a0-99b4-14f53d77a163")
-	)
-	(text "What do we use for \n12V power delivery?"
-		(exclude_from_sim no)
-		(at 152.4 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eb2af501-ddd8-41b7-8d65-fb183a1be364")
 	)
 	(junction
 		(at 132.715 106.045)
@@ -1547,10 +1525,10 @@
 		(uuid "a8e4a465-6dd2-4973-9de3-563b20642c37")
 	)
 	(junction
-		(at 133.985 125.095)
+		(at 133.985 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae429f65-3633-4c2b-a4cf-dee15ba04473")
+		(uuid "c7c9e252-e28a-4027-95eb-6fd7a2d21ddb")
 	)
 	(junction
 		(at 111.125 125.095)
@@ -1578,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 125.095) (xy 133.985 125.095)
+			(xy 129.54 125.73) (xy 133.985 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 137.16) (xy 168.91 137.16)
+			(xy 133.985 137.16) (xy 143.51 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1596,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 127.635) (xy 133.985 125.095)
+			(xy 133.985 125.73) (xy 144.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fefbfba-2299-4b61-9c0b-8b54d7e3710a")
+	)
+	(wire
+		(pts
+			(xy 133.985 127.635) (xy 133.985 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 128.905) (xy 129.54 125.095)
+			(xy 129.54 128.905) (xy 129.54 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1765,16 +1753,6 @@
 			(type default)
 		)
 		(uuid "61a0ed45-b91e-4803-972c-a8515037f99d")
-	)
-	(wire
-		(pts
-			(xy 133.985 125.095) (xy 138.43 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738bbcaa-c3e2-4213-bf30-20bbffb1ba40")
 	)
 	(wire
 		(pts
@@ -1838,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 137.16) (xy 168.91 139.065)
+			(xy 143.51 137.16) (xy 143.51 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +1944,7 @@
 		)
 		(uuid "fc2c55c0-6038-4075-b8ec-2e1b2998540f")
 	)
-	(label "+20V"
+	(label "+12V"
 		(at 88.265 125.095 0)
 		(effects
 			(font
@@ -1976,7 +1954,7 @@
 		)
 		(uuid "704d597c-242a-4df5-9db0-9713b472e996")
 	)
-	(label "+20V"
+	(label "+12V"
 		(at 110.49 95.885 0)
 		(effects
 			(font
@@ -1988,7 +1966,7 @@
 	)
 	(global_label "+12V"
 		(shape output)
-		(at 168.91 125.095 0)
+		(at 144.78 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1998,7 +1976,7 @@
 		)
 		(uuid "9f48e369-eb4c-402a-8ba5-4dee66c330af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9752 125.095 0)
+			(at 152.8452 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2393,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 168.91 139.065 0)
+		(at 143.51 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2426,7 +2404,7 @@
 		(fields_autoplaced yes)
 		(uuid "668ab08a-08ca-45f2-9397-39eb7e6e8630")
 		(property "Reference" "#PWR030"
-			(at 168.91 144.145 0)
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2437,7 +2415,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 168.783 142.875 0)
+			(at 143.383 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2447,7 +2425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 140.335 0)
+			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 140.335 0)
+			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2469,7 +2447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 168.91 139.065 0)
+			(at 143.51 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3060,9 +3038,5 @@
 				)
 			)
 		)
-	)
-	(group ""
-		(uuid "e9096954-a970-40d2-830d-cfc047ef5792")
-		(members "2fef0c20-fdd8-456b-8507-faa052da9596" "eb2af501-ddd8-41b7-8d65-fb183a1be364")
 	)
 )
