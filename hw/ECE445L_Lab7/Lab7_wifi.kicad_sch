@@ -948,8 +948,8 @@
 		)
 	)
 	(rectangle
-		(start 102.87 84.455)
-		(end 203.2 113.03)
+		(start 102.87 84.328)
+		(end 204.343 112.903)
 		(stroke
 			(width 0)
 			(type default)
@@ -961,7 +961,7 @@
 	)
 	(text "ESP8266 Module"
 		(exclude_from_sim no)
-		(at 194.437 111.887 0)
+		(at 195.58 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -970,13 +970,13 @@
 		(uuid "178bd0d9-b8f0-4f20-acb6-e6c1cd65e19e")
 	)
 	(junction
-		(at 187.325 100.33)
+		(at 188.595 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06741c95-ca3a-4b5b-b8c4-e89554e8f57f")
 	)
 	(junction
-		(at 187.325 92.71)
+		(at 188.595 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9569f032-8d4e-4d65-a330-5c8922f60085")
@@ -993,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 100.33) (xy 187.325 100.33)
+			(xy 182.245 100.33) (xy 188.595 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 90.805) (xy 187.325 92.71)
+			(xy 188.595 90.805) (xy 188.595 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 100.33) (xy 187.325 102.235)
+			(xy 188.595 100.33) (xy 188.595 102.235)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 100.33) (xy 193.04 100.33)
+			(xy 188.595 100.33) (xy 194.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 92.71) (xy 187.325 92.71)
+			(xy 182.245 92.71) (xy 188.595 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 92.71) (xy 193.04 92.71)
+			(xy 188.595 92.71) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1229,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 187.325 90.805 0)
+		(at 188.595 90.805 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1239,7 +1239,7 @@
 		(dnp no)
 		(uuid "0517e6d4-0ff5-4f20-9a8f-cedc9ac1e6de")
 		(property "Reference" "#PWR045"
-			(at 187.325 94.615 0)
+			(at 188.595 94.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 189.865 90.805 0)
+			(at 191.135 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1260,7 +1260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.325 90.805 0)
+			(at 188.595 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1271,7 +1271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.325 90.805 0)
+			(at 188.595 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 187.325 90.805 0)
+			(at 188.595 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1317,8 +1317,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d5d1f66-6aab-4d17-a616-76dd8dffc76a")
-		(property "Reference" "U1"
-			(at 140.335 86.995 0)
+		(property "Reference" "ESP8266"
+			(at 140.335 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(property "Value" "ESP8266-1"
-			(at 140.335 89.535 0)
+			(at 140.335 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1370,6 +1370,17 @@
 				)
 			)
 		)
+		(property "Distributor" "445L"
+			(at 139.7 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "8760f4e8-6e33-4938-b504-6bb6b32efaaf")
 		)
@@ -1397,7 +1408,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9e7b1dfa-492f-407a-9f72-cee77954c346"
-					(reference "U1")
+					(reference "ESP8266")
 					(unit 1)
 				)
 			)
@@ -1405,7 +1416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.325 102.235 0)
+		(at 188.595 102.235 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1416,7 +1427,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ac4e16f-a332-4c27-93b0-ecb52814acb7")
 		(property "Reference" "#PWR09"
-			(at 187.325 108.585 0)
+			(at 188.595 108.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1427,7 +1438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.325 107.315 0)
+			(at 188.595 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1437,7 +1448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.325 102.235 0)
+			(at 188.595 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,7 +1459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.325 102.235 0)
+			(at 188.595 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1459,7 +1470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.325 102.235 0)
+			(at 188.595 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1561,7 +1572,7 @@
 	(symbol
 		(lib_name "C_1")
 		(lib_id "ECE445L:C")
-		(at 180.975 96.52 0)
+		(at 182.245 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1571,8 +1582,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7773c6e5-186f-4d5a-beae-1632f8da33aa")
-		(property "Reference" "C1"
-			(at 184.785 95.2499 0)
+		(property "Reference" "C_{b}16"
+			(at 185.42 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1582,8 +1593,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 184.785 97.7899 0)
+		(property "Value" "100n"
+			(at 185.42 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1593,8 +1604,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:C_Radial_100mil"
-			(at 181.9402 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 183.2102 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,8 +1615,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 180.975 96.52 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/317/1/WTC_MLCC_General_Purpose.pdf"
+			(at 182.245 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1616,7 +1627,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.975 96.52 0)
+			(at 182.245 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 182.245 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin "
+			(at 182.245 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0603B104J160CT "
+			(at 182.245 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "791-0603B104J160CT "
+			(at 182.245 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1635,7 +1690,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9e7b1dfa-492f-407a-9f72-cee77954c346"
-					(reference "C1")
+					(reference "C_{b}16")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 96.52 0)
+		(at 194.31 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1730,8 +1785,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84167ae3-ed8e-4ee1-8e30-077b559db5d5")
-		(property "Reference" "C2"
-			(at 196.215 95.2499 0)
+		(property "Reference" "C_{b}17"
+			(at 198.12 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1741,8 +1796,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 196.215 97.7899 0)
+		(property "Value" "4.7u"
+			(at 198.12 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,8 +1807,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:CP_Radial_Tantal200mil"
-			(at 194.0052 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 195.2752 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,8 +1818,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 193.04 96.52 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"
+			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1775,7 +1830,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 193.04 96.52 0)
+			(at 194.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 194.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 194.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805X475M250CT "
+			(at 194.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "791-0805X475M250CT "
+			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1794,7 +1893,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9e7b1dfa-492f-407a-9f72-cee77954c346"
-					(reference "C2")
+					(reference "C_{b}17")
 					(unit 1)
 				)
 			)
@@ -1812,7 +1911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b784fa89-f3da-40eb-83b9-97a8d7612921")
-		(property "Reference" "R1"
+		(property "Reference" "R_{PU}1"
 			(at 174.625 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +1933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECE445L:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 172.085 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1845,7 +1944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/CarbonFilmresistors.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/CRM0805_1206_2010.pdf"
 			(at 172.085 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1867,6 +1966,50 @@
 				)
 			)
 		)
+		(property "Distributor" "Mouser"
+			(at 172.085 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns "
+			(at 172.085 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRM0805-FX-1002ELF "
+			(at 172.085 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "652-CRM0805FX1002ELF "
+			(at 172.085 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3e1ac20-7b70-4285-bc83-15e1dbd485e2")
 		)
@@ -1876,7 +2019,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9e7b1dfa-492f-407a-9f72-cee77954c346"
-					(reference "R1")
+					(reference "R_{PU}1")
 					(unit 1)
 				)
 			)

@@ -536,8 +536,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "ECE445L"
+    ],
+    "pinned_symbol_libs": [
+      "ECE445L"
+    ]
   },
   "meta": {
     "filename": "ECE445L_Lab7.kicad_pro",
@@ -647,12 +651,96 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost",
+          "name": "Cost",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N",
+          "name": "P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -705,7 +793,7 @@
         "uuid": "69b823fd-c065-40ff-9bb9-c5835555f3eb"
       }
     ],
-    "used_designators": "+3.3V1,#PWR3-6,#PWR10-61,C3-14,U1,U3-6,Y1-2,GND1,+5V1,SW6,R2-3,R7,C_{b}2-7,J1-2,J4-6,M1-7,Q1-9,C_{b\\,1}1,C_{b\\,2}1,J_{LED\\,G1}1,J_{flash\\,1}1,L1-2,D2,LS2,F1,TP1,TP_{12V}1,J_{LED\\,G2}1",
+    "used_designators": "J_{LED\\,G4}1,+3.3V1,#PWR1-8,#PWR10-94,C3-14,C_{core\\,2}1,U1-7,R_{choke}2-6,R_{choke}8-15,Y1-2,SPI_CS1,M_{flywheel\\,1}1,12V1,GND1,C_{filter}1,+5V1,SW1,SW6,R2-3,R7,C_{b}2-15,J1-2,J4-6,M_{feeder}1,M1-12,Motor_In2-16,SW_{bypass}2-6,SW_{bypass}8-15,D_{flyback}2-6,D_{flyback}8-15,Q1-17,uC_{1}←uC_{2}1,C_{b\\,1}1,R_{PU}2,R_{gate}2-6,R_{gate}8-15,C_{b\\,2}1,J_{LED\\,G1}1,J_{flash\\,1}1,L1-2,D1-3,J_{IDReader}1,LS1-2,F1,J_{atomizer}1,TP1-8,RxD_{ID}1,TP_{12V}1,J_{flash\\,2}1,J_{LED\\,G2}1,J_{LED\\,G3}1,Motor_V_{d}2-16,JP1,JP_{Motor}2-4,C_{b\\,3}1,C_{b\\,4}1,TxD_{ID}1,C_{core\\,1}1,C_{pi\\,1}1,C_{pi\\,2}1,Flywheels_In1,J_{Keypad}1,J_{test}1,J_{USB\\-C}1,L_{filter}1,M_{flywheel\\,2}1,R_{filter}1,Solenoid_V_{d}1,SPI_SCK1,U_{Decoder}1,uC_{1}→uC_{2}1",
     "variants": []
   },
   "sheets": [
@@ -715,23 +803,23 @@
     ],
     [
       "120cc903-6d6c-4a77-ad9c-c9f63dede169",
-      "Lab7_power"
+      "Lab7 Power"
     ],
     [
       "c4445928-c95f-4ef5-82c7-58ae1ba9c5bb",
-      "Lab7_microcontroller"
+      "Lab7 Microcontroller"
     ],
     [
       "e9432827-5ece-4de0-90fe-13c05c5c04a5",
-      "Lab7_Input"
+      "Lab7 IO"
     ],
     [
       "9e7b1dfa-492f-407a-9f72-cee77954c346",
-      "Lab7_wifi"
+      "Lab7 Wifi"
     ],
     [
       "a500a078-11dc-409b-bff9-a8c35e1dabf8",
-      "Lab7_Output"
+      "Lab7 Electromech"
     ]
   ],
   "text_variables": {},

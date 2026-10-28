@@ -143,8 +143,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "J_{USB-C}"
+				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -252,7 +252,7 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
@@ -270,7 +270,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
@@ -599,6 +599,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -611,8 +788,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 2.032 0 90)
+			(property "Reference" "F1"
+				(at 5.715 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -622,7 +799,7 @@
 				)
 			)
 			(property "Value" "Fuse"
-				(at -1.905 0 90)
+				(at 3.175 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -712,7 +889,7 @@
 				)
 			)
 			(symbol "Fuse_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 3.81 270)
 					(length 1.27)
 					(name ""
@@ -730,7 +907,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
@@ -1390,6 +1567,26 @@
 		)
 		(uuid "9881d305-c8be-4404-9c2f-b3e23cdc28ab")
 	)
+	(text_box "TODO: Find footprint for fuse holder"
+		(exclude_from_sim no)
+		(at 99.06 97.155 0)
+		(size 14.605 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aa1103e3-df3a-4ee1-846b-dc25e7968121")
+	)
 	(junction
 		(at 132.715 106.045)
 		(diameter 0)
@@ -1409,12 +1606,6 @@
 		(uuid "12f3411d-b935-43c5-8d03-c04a866c887e")
 	)
 	(junction
-		(at 116.84 95.885)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c085eec-fdfe-4a42-997b-c573db538b6a")
-	)
-	(junction
 		(at 125.73 106.045)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,9 +1617,15 @@
 		(color 0 0 0 0)
 		(uuid "70810645-eca7-449c-beb1-6ef26b4fcf96")
 	)
+	(junction
+		(at 116.84 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf4ea41-0f1b-4cd7-b725-0d55e8949208")
+	)
 	(wire
 		(pts
-			(xy 97.79 95.885) (xy 99.695 95.885)
+			(xy 97.79 95.885) (xy 100.965 95.885)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 124.46) (xy 127 124.46)
+			(xy 120.65 124.46) (xy 127 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 95.885) (xy 116.84 95.885)
+			(xy 108.585 95.885) (xy 116.84 95.885)
 		)
 		(stroke
 			(width 0)
@@ -1696,17 +1893,17 @@
 		)
 		(uuid "fc2c55c0-6038-4075-b8ec-2e1b2998540f")
 	)
-	(label "+12V"
-		(at 121.285 124.46 0)
+	(label "V_{in,fused}"
+		(at 120.65 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "704d597c-242a-4df5-9db0-9713b472e996")
+		(uuid "9a63cad3-472c-48b7-96c7-021d40f19b1f")
 	)
-	(label "+12V"
+	(label "V_{in,fused}"
 		(at 110.49 95.885 0)
 		(effects
 			(font
@@ -1715,6 +1912,16 @@
 			(justify left bottom)
 		)
 		(uuid "9ff907a9-1930-4d7b-b191-1cacf989dc57")
+	)
+	(label "V_{in}"
+		(at 97.79 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce19bdbe-d07b-4256-9d0c-d9b9f7a8c6e2")
 	)
 	(global_label "+12V"
 		(shape input)
@@ -1765,7 +1972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 137.16 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -1776,8 +1983,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17296da8-eeec-4982-9e39-17cb5c0052ff")
-		(property "Reference" "C3"
-			(at 140.335 135.8899 0)
+		(property "Reference" "C_{filter}1"
+			(at 140.97 135.0009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1788,7 +1995,7 @@
 			)
 		)
 		(property "Value" "1200u"
-			(at 140.335 138.4299 0)
+			(at 140.97 137.5409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1798,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 138.1252 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1809,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/KEM_A4148_A7D0.pdf"
 			(at 137.16 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -1820,7 +2027,62 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 137.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 137.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 137.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 137.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A7D0MW128M1EAAS011 "
+			(at 137.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "80-A7D0MW128M1EAAS11 "
 			(at 137.16 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -1840,7 +2102,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "C3")
+					(reference "C_{filter}1")
 					(unit 1)
 				)
 			)
@@ -1935,8 +2197,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2200e36e-53f8-40a1-8d39-dc7a4d735047")
-		(property "Reference" "L1"
-			(at 130.81 118.745 90)
+		(property "Reference" "L_{filter}1"
+			(at 130.81 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1945,8 +2207,8 @@
 				)
 			)
 		)
-		(property "Value" "10u"
-			(at 130.81 121.285 90)
+		(property "Value" "10uH"
+			(at 130.81 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1955,7 +2217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_APV_APH1040"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_MSS1038-XXX"
 			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1988,6 +2250,50 @@
 				)
 			)
 		)
+		(property "Distributor" "Mouser"
+			(at 130.81 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics"
+			(at 130.81 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AMRM00101040100MA1 "
+			(at 130.81 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "673-AMRM101040100MA1 "
+			(at 130.81 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63d796e6-a60c-4d35-9cb7-cd17a42debe7")
 		)
@@ -1997,7 +2303,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "L1")
+					(reference "L_{filter}1")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a59d93f-c797-4229-b7d8-3c8ad38b880b")
-		(property "Reference" "C_{pi,1}"
+		(property "Reference" "C_{pi}1"
 			(at 120.015 99.6949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2037,7 +2343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 117.8052 104.775 0)
 			(hide yes)
 			(show_name no)
@@ -2048,7 +2354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"
 			(at 116.84 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -2070,6 +2376,50 @@
 				)
 			)
 		)
+		(property "Distributor" "Mouser"
+			(at 116.84 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 116.84 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805X475M250CT "
+			(at 116.84 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "791-0805X475M250CT "
+			(at 116.84 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fefd503-e976-4fe7-988a-18b3dec4edfe")
 		)
@@ -2079,7 +2429,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "C_{pi,1}")
+					(reference "C_{pi}1")
 					(unit 1)
 				)
 			)
@@ -2175,7 +2525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937f53d1-a6c9-466f-a692-a1c3c67a5da3")
-		(property "Reference" "TP_{3V3}"
+		(property "Reference" "3V3"
 			(at 105.41 132.5879 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2197,7 +2547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 			(at 108.585 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2236,7 +2586,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "TP_{3V3}")
+					(reference "3V3")
 					(unit 1)
 				)
 			)
@@ -2244,7 +2594,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 103.505 95.885 90)
+		(at 104.775 95.885 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2255,7 +2605,7 @@
 		(fields_autoplaced yes)
 		(uuid "9be984ff-65df-488a-be50-473808ab6105")
 		(property "Reference" "F1"
-			(at 103.505 90.17 90)
+			(at 104.775 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2265,7 +2615,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 103.505 92.71 90)
+			(at 104.775 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2274,8 +2624,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 103.505 97.663 90)
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Wuerth_696103101002-SMD_Horizontal_Open"
+			(at 104.775 94.107 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.505 95.885 0)
+			(at 104.775 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2297,7 +2647,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 103.505 95.885 0)
+			(at 104.775 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5679289-ed77-4ac8-980b-5c1c90ff7427")
-		(property "Reference" "J_{USB-C}"
+		(property "Reference" "J_{USB-C}1"
 			(at 92.71 89.535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,7 +2704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 92.71 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -2396,7 +2746,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "J_{USB-C}")
+					(reference "J_{USB-C}1")
 					(unit 1)
 				)
 			)
@@ -2569,7 +2919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6aff857-a320-48a6-880e-3d365121fa10")
-		(property "Reference" "C_{pi,2}"
+		(property "Reference" "C_{pi}2"
 			(at 147.32 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2591,7 +2941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 145.1102 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2602,7 +2952,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"
 			(at 144.145 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2624,6 +2974,50 @@
 				)
 			)
 		)
+		(property "Distributor" "Mouser"
+			(at 144.145 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 144.145 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805X475M250CT "
+			(at 144.145 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "791-0805X475M250CT "
+			(at 144.145 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94684242-97b8-48aa-ad33-0b828369a3f9")
 		)
@@ -2633,7 +3027,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "C_{pi,2}")
+					(reference "C_{pi}2")
 					(unit 1)
 				)
 			)
@@ -2651,7 +3045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7133c82-d335-4f6c-af2f-0c43c360225c")
-		(property "Reference" "TP_{12V}"
+		(property "Reference" "12V1"
 			(at 105.41 121.7929 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +3067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 			(at 108.585 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -2712,7 +3106,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "TP_{12V}")
+					(reference "12V1")
 					(unit 1)
 				)
 			)
@@ -2730,7 +3124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9024ea-3d04-470c-9534-b8cd5c2734d7")
-		(property "Reference" "R_{filter}"
+		(property "Reference" "R_{filter}1"
 			(at 139.7 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/132/1/res_kdv.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYU_RL_GROUP_521_ROHS_L.pdf"
 			(at 137.16 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2785,6 +3179,50 @@
 				)
 			)
 		)
+		(property "Distributor" "Mouser"
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO "
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RL0603JR-070R25L "
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RL0603JR-070R25L "
+			(at 137.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be2e3629-f0a4-4d33-ad79-73d450cecf67")
 		)
@@ -2794,7 +3232,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "R_{filter}")
+					(reference "R_{filter}1")
 					(unit 1)
 				)
 			)
@@ -2812,8 +3250,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd59cefa-27cd-4695-bc6e-7d807ccf94f4")
-		(property "Reference" "U3"
-			(at 132.715 88.265 0)
+		(property "Reference" "U_{3V3DC}1"
+			(at 132.715 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2823,7 +3261,7 @@
 			)
 		)
 		(property "Value" "RBT05W24S12"
-			(at 132.715 90.805 0)
+			(at 132.715 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2866,6 +3304,50 @@
 				)
 			)
 		)
+		(property "Distributor" "Mouser"
+			(at 132.715 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XP Power "
+			(at 132.715 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RBT05W24S3V3 "
+			(at 132.715 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "209-RBT05W24S3V3 "
+			(at 132.715 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ef9fbdb-ae0f-4914-a47c-7d3a3a668320")
 		)
@@ -2878,7 +3360,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "U3")
+					(reference "U_{3V3DC}1")
 					(unit 1)
 				)
 			)

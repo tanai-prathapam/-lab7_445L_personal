@@ -402,8 +402,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 25.4)
-		(size 196.85 20.955)
+		(at 38.735 43.18)
+		(size 31.75 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -417,8 +417,8 @@
 			(color 255 255 0 1)
 		)
 		(uuid "120cc903-6d6c-4a77-ad9c-c9f63dede169")
-		(property "Sheetname" "Lab7_power"
-			(at 38.1 24.6884 0)
+		(property "Sheetname" "Lab7 Power"
+			(at 38.735 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -429,7 +429,7 @@
 			)
 		)
 		(property "Sheetfile" "Lab7_power.kicad_sch"
-			(at 38.1 46.9396 0)
+			(at 38.735 64.7196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -448,7 +448,7 @@
 		)
 	)
 	(sheet
-		(at 169.545 102.87)
+		(at 104.14 103.505)
 		(size 35.56 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -463,8 +463,8 @@
 			(color 255 229 191 1)
 		)
 		(uuid "9e7b1dfa-492f-407a-9f72-cee77954c346")
-		(property "Sheetname" "Lab7_wifi"
-			(at 169.545 102.1584 0)
+		(property "Sheetname" "Lab7 Wifi"
+			(at 104.14 102.7934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -475,7 +475,7 @@
 			)
 		)
 		(property "Sheetfile" "Lab7_wifi.kicad_sch"
-			(at 169.545 119.9646 0)
+			(at 104.14 120.5996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -494,7 +494,7 @@
 		)
 	)
 	(sheet
-		(at 186.055 63.5)
+		(at 104.775 44.45)
 		(size 40.005 19.685)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -509,8 +509,8 @@
 			(color 0 255 0 1)
 		)
 		(uuid "a500a078-11dc-409b-bff9-a8c35e1dabf8")
-		(property "Sheetname" "Lab7_Output"
-			(at 186.055 62.7884 0)
+		(property "Sheetname" "Lab7 Electromech"
+			(at 104.775 43.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -521,7 +521,7 @@
 			)
 		)
 		(property "Sheetfile" "Lab7_Output.kicad_sch"
-			(at 186.055 83.7696 0)
+			(at 104.775 64.7196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -555,7 +555,7 @@
 			(color 0 255 255 1)
 		)
 		(uuid "c4445928-c95f-4ef5-82c7-58ae1ba9c5bb")
-		(property "Sheetname" "Lab7_microcontroller"
+		(property "Sheetname" "Lab7 Microcontroller"
 			(at 104.775 73.5834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -601,7 +601,7 @@
 			(color 0 255 0 1)
 		)
 		(uuid "e9432827-5ece-4de0-90fe-13c05c5c04a5")
-		(property "Sheetname" "Lab7_Input"
+		(property "Sheetname" "Lab7 IO"
 			(at 39.37 69.7734 0)
 			(show_name no)
 			(do_not_autoplace no)
