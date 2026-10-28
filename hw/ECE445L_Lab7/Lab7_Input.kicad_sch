@@ -814,8 +814,8 @@
 		)
 	)
 	(rectangle
-		(start 69.85 34.925)
-		(end 109.855 65.405)
+		(start 66.04 34.925)
+		(end 106.045 65.405)
 		(stroke
 			(width 0)
 			(type default)
@@ -826,7 +826,7 @@
 		(uuid "22129bc8-bf2a-4380-ba84-adcc91b5ef08")
 	)
 	(rectangle
-		(start 111.125 34.925)
+		(start 107.315 34.925)
 		(end 152.4 65.405)
 		(stroke
 			(width 0)
@@ -838,7 +838,7 @@
 		(uuid "abf8edfe-a2f4-4c2f-a734-132db709f981")
 	)
 	(rectangle
-		(start 69.85 66.675)
+		(start 66.04 66.675)
 		(end 152.4 125.73)
 		(stroke
 			(width 0)
@@ -861,7 +861,7 @@
 	)
 	(text "Keypad"
 		(exclude_from_sim no)
-		(at 105.41 63.5 0)
+		(at 101.6 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -940,9 +940,9 @@
 		)
 		(uuid "f74aa851-0ab6-462f-aebb-022f1b51ff78")
 	)
-	(global_label "uC_{1} - KR1"
+	(global_label "Keypad - R1"
 		(shape output)
-		(at 87.63 40.005 180)
+		(at 83.82 40.005 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -952,7 +952,7 @@
 		)
 		(uuid "005e2517-2582-46cf-a962-2984f9e49ea0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 40.005 0)
+			(at 70.1911 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -964,7 +964,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA8"
+	(global_label "ID Scan - TxD"
 		(shape input)
 		(at 125.095 47.625 180)
 		(fields_autoplaced yes)
@@ -988,9 +988,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KR3"
+	(global_label "Keypad - R3"
 		(shape output)
-		(at 87.63 45.085 180)
+		(at 83.82 45.085 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1000,7 +1000,7 @@
 		)
 		(uuid "783ae97e-dd1e-4ec9-863c-2e2fd0057ece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 45.085 0)
+			(at 70.1911 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1012,9 +1012,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KC4"
+	(global_label "Keypad - C4"
 		(shape input)
-		(at 87.63 57.785 180)
+		(at 83.82 57.785 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1024,7 +1024,7 @@
 		)
 		(uuid "87b6f86d-b5ac-479e-a7e7-9761f8e4d549")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 57.785 0)
+			(at 70.1911 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1036,9 +1036,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KC2"
+	(global_label "Keypad - C2"
 		(shape input)
-		(at 87.63 52.705 180)
+		(at 83.82 52.705 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1048,7 +1048,7 @@
 		)
 		(uuid "ad715f2e-0549-4f90-b878-461a057b4f9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 52.705 0)
+			(at 70.1911 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1060,9 +1060,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KR2"
+	(global_label "Keypad - R2"
 		(shape output)
-		(at 87.63 42.545 180)
+		(at 83.82 42.545 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,7 +1072,7 @@
 		)
 		(uuid "c812ec50-c302-4cc8-bc43-471e42735d5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 42.545 0)
+			(at 70.1911 42.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1084,9 +1084,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KC1"
+	(global_label "Keypad - C1"
 		(shape input)
-		(at 87.63 50.165 180)
+		(at 83.82 50.165 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1096,7 +1096,7 @@
 		)
 		(uuid "d664a032-80a0-4c24-8d7f-95b9167881fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 50.165 0)
+			(at 70.1911 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1108,7 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - PA9"
+	(global_label "ID Scan - RxD"
 		(shape input)
 		(at 125.095 50.165 180)
 		(fields_autoplaced yes)
@@ -1132,9 +1132,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KC3"
+	(global_label "Keypad - C3"
 		(shape input)
-		(at 87.63 55.245 180)
+		(at 83.82 55.245 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1144,7 +1144,7 @@
 		)
 		(uuid "e71227b7-4462-46a8-bc46-ca56c6def844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 55.245 0)
+			(at 70.1911 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1156,9 +1156,9 @@
 			)
 		)
 	)
-	(global_label "uC_{1} - KR4"
+	(global_label "Keypad - R4"
 		(shape output)
-		(at 87.63 47.625 180)
+		(at 83.82 47.625 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1168,7 +1168,7 @@
 		)
 		(uuid "f2eff5f8-ec86-40c1-9156-5a397ff903a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0011 47.625 0)
+			(at 70.1911 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1182,7 +1182,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 92.71 47.625 0)
+		(at 88.9 47.625 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1193,7 +1193,7 @@
 		(fields_autoplaced yes)
 		(uuid "0009e371-cb48-408b-92c5-92fedb5d0e9e")
 		(property "Reference" "J_{Keypad}"
-			(at 95.885 47.6249 0)
+			(at 92.075 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1204,7 +1204,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 95.885 50.1649 0)
+			(at 92.075 50.1649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1215,7 +1215,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 92.71 47.625 0)
+			(at 88.9 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 47.625 0)
+			(at 88.9 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1237,7 +1237,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 47.625 0)
+			(at 88.9 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 136.525 47.625 0)
 			(hide yes)
 			(show_name no)

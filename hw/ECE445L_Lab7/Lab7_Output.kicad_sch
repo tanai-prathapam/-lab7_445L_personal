@@ -11,6 +11,351 @@
 		(company "ECE445L")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Small"
 			(pin_numbers
 				(hide yes)
@@ -2109,6 +2454,18 @@
 		(uuid "4f221e8e-d654-4975-bc54-55eba8e5cea0")
 	)
 	(rectangle
+		(start 120.015 124.46)
+		(end 171.45 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "72afd2c6-497f-4f31-8271-f5cf7db9fd5d")
+	)
+	(rectangle
 		(start 25.4 124.46)
 		(end 118.745 170.18)
 		(stroke
@@ -2173,6 +2530,37 @@
 			)
 		)
 		(uuid "c27c875c-e7a4-4153-92c6-05cd3e2f483c")
+	)
+	(text "Misc. Outputs"
+		(exclude_from_sim no)
+		(at 170.18 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4aeb0ae-b631-4fa1-b231-d9fc507d3082")
+	)
+	(text_box "How are we going to hook up the LEDs?"
+		(exclude_from_sim no)
+		(at 122.555 144.145 0)
+		(size 24.765 17.145)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a9825ea9-03b1-4bb2-ad63-b2c21391ca55")
 	)
 	(junction
 		(at 95.25 136.525)
@@ -2738,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 134.62) (xy 144.145 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bfa7fba-dd82-4153-86c9-1e3a1c07790e")
+	)
+	(wire
+		(pts
 			(xy 261.62 83.185) (xy 261.62 85.09)
 		)
 		(stroke
@@ -2988,6 +3386,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 132.08) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5896db4-e6e6-44f0-9b45-a64b7947a1aa")
+	)
+	(wire
+		(pts
 			(xy 261.62 110.49) (xy 261.62 112.395)
 		)
 		(stroke
@@ -3038,6 +3446,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.145 134.62) (xy 144.145 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f954ffe9-316b-4cb1-903b-cb3c88fcd1c9")
+	)
+	(wire
+		(pts
 			(xy 262.255 65.405) (xy 259.715 65.405)
 		)
 		(stroke
@@ -3080,7 +3498,7 @@
 			)
 		)
 	)
-	(global_label "uC_{2} - Motor_{4}"
+	(global_label "uC_{2} - Motor _{4}"
 		(shape input)
 		(at 167.005 57.785 180)
 		(fields_autoplaced yes)
@@ -3284,7 +3702,7 @@
 		)
 		(uuid "837b31e8-2413-4616-9f51-6a9f6ca046cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.973 151.765 0)
+			(at 70.2516 151.765 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3930,7 @@
 			)
 		)
 	)
-	(global_label "uC_{2} - Motor_{1}"
+	(global_label "uC_{2} - Motor _{1}"
 		(shape input)
 		(at 45.085 57.785 180)
 		(fields_autoplaced yes)
@@ -3536,7 +3954,7 @@
 			)
 		)
 	)
-	(global_label "uC_{2} - Motor_{2}"
+	(global_label "uC_{2} - Motor _{2}"
 		(shape input)
 		(at 85.725 57.785 180)
 		(fields_autoplaced yes)
@@ -3560,7 +3978,7 @@
 			)
 		)
 	)
-	(global_label "uC_{2} - Motor_{3}"
+	(global_label "uC_{2} - Motor _{3}"
 		(shape input)
 		(at 126.365 57.785 180)
 		(fields_autoplaced yes)
@@ -3645,6 +4063,30 @@
 		(uuid "eb5c1908-0f82-4db7-b2c3-e428d31bd2e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.6698 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "uC_{2} - Smoke"
+		(shape input)
+		(at 146.05 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6ad3d9b-a915-46d5-943b-2ec313a18506")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.0021 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,6 +4466,88 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 154.94 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e1446f4-7275-4b2a-ba37-c77b27f969ef")
+		(property "Reference" "J_{LED,G2}"
+			(at 158.115 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 158.115 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 154.94 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d62fc7ad-0b7a-4ce5-9196-2e553a4b0998")
+		)
+		(pin "1"
+			(uuid "58fea91d-d24a-40bc-a743-0c60a7128cc4")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "J_{LED,G2}")
 					(unit 1)
 				)
 			)
@@ -5434,7 +5958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Motor _DC"
 			(at 98.425 43.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5594,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Motor _DC"
 			(at 57.785 43.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,6 +6332,184 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:HiLetGo_ST7735R")
+		(at 239.395 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "417488a7-0f48-4f0d-b59e-778cc9e3ce27")
+		(property "Reference" "U5"
+			(at 239.395 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HiLetGo_ST7735R"
+			(at 239.395 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECE445L:hiletgo_st7735r2"
+			(at 234.315 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/1-8-tft-display.pdf"
+			(at 238.125 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "http://hiletgo.com/ProductDetail/2157911.html"
+			(at 239.395 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Amazon"
+			(at 239.395 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HiLetGo"
+			(at 224.155 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "https://www.amazon.com/s?k=hiletgo+ST7735R"
+			(at 238.125 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 239.395 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Cost" "9.95"
+			(at 250.825 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ade396bd-9c87-477c-8b07-01cf5c1b5aeb")
+		)
+		(pin "3"
+			(uuid "6b05e2b1-7c2d-4bd0-acf5-968457f091d8")
+		)
+		(pin "4"
+			(uuid "9980a020-5f17-48d1-9c33-38a028d57867")
+		)
+		(pin "5"
+			(uuid "1b654017-0a4f-455b-aa62-31c40899e62d")
+		)
+		(pin "7"
+			(uuid "7d34df51-d722-4351-9697-1af3437fd630")
+		)
+		(pin "8"
+			(uuid "771a6e9a-2e22-440f-83b4-95d18027ae78")
+		)
+		(pin "9"
+			(uuid "b7ce41e8-e882-462a-b1ca-52192ce620f4")
+		)
+		(pin "11"
+			(uuid "198505f2-b610-4c97-aa05-cd00e6d50dac")
+		)
+		(pin "6"
+			(uuid "682b8f3d-c8e1-479d-8ad3-a98a02ba773f")
+		)
+		(pin "13"
+			(uuid "7576b378-1bff-4807-a028-0eff73a22fa8")
+		)
+		(pin "10"
+			(uuid "6fcfc315-cd3d-43ef-895f-cdf6d09459fe")
+		)
+		(pin "14"
+			(uuid "831cfbca-2368-4513-ae35-5d31275b4d1a")
+		)
+		(pin "12"
+			(uuid "ee0aa364-657d-49d1-a226-edece90b275d")
+		)
+		(pin "15"
+			(uuid "3e8fe3ff-6dc2-4d4a-ac5d-3036a758ed1a")
+		)
+		(pin "1"
+			(uuid "a71a5a60-d96a-43d8-baaf-d68fdf7289be")
+		)
+		(pin "16"
+			(uuid "4b449314-021e-46d5-a780-bcc4ab71a7d3")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6040,184 +6742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE445L:HiLetGo_ST7735R")
-		(at 239.395 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aa1ee70-4145-41e9-859f-de88dc4a4497")
-		(property "Reference" "J_{HiLetGo}"
-			(at 239.395 78.105 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x16"
-			(at 239.395 80.645 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECE445L:hiletgo_st7735r2"
-			(at 234.315 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/1-8-tft-display.pdf"
-			(at 238.125 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "http://hiletgo.com/ProductDetail/2157911.html"
-			(at 239.395 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Amazon"
-			(at 239.395 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HiLetGo"
-			(at 224.155 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "https://www.amazon.com/s?k=hiletgo+ST7735R"
-			(at 238.125 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 239.395 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Cost" "9.95"
-			(at 250.825 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "16"
-			(uuid "f5e8e158-edad-4ca4-bf21-b52861b28bfd")
-		)
-		(pin "10"
-			(uuid "815b4393-52b7-451a-9a3f-f8581cfabe44")
-		)
-		(pin "14"
-			(uuid "655a3bd0-72bd-411a-bae9-d28ccbac7b01")
-		)
-		(pin "15"
-			(uuid "8ad8cc91-01e1-462f-adcb-7187418c53ab")
-		)
-		(pin "7"
-			(uuid "2a37a508-e52c-491f-bf0d-6003f627f5ae")
-		)
-		(pin "12"
-			(uuid "7bcd9d9a-759a-4c17-839d-95974d936003")
-		)
-		(pin "9"
-			(uuid "5c6fbb5a-d510-452a-b56c-8534bc5799a1")
-		)
-		(pin "3"
-			(uuid "2da45007-058b-4058-9d4d-6deca0c793c8")
-		)
-		(pin "13"
-			(uuid "f35cc36f-6ff4-447e-82d8-71d5763d6bd8")
-		)
-		(pin "2"
-			(uuid "9094ffce-901f-46eb-b0cc-b08c0cf31551")
-		)
-		(pin "1"
-			(uuid "7e26b0c3-35b0-48f9-8d68-625ea99b74a4")
-		)
-		(pin "6"
-			(uuid "40ea5e06-0989-47bc-b25d-92e7b1dc5f28")
-		)
-		(pin "11"
-			(uuid "401887b7-af2a-4c49-9fcc-9f6ed9c6158b")
-		)
-		(pin "8"
-			(uuid "37222360-c5aa-4148-8a60-5a40ceb7be84")
-		)
-		(pin "5"
-			(uuid "1d036ac6-24dc-4ba1-9e19-35f6bc349812")
-		)
-		(pin "4"
-			(uuid "04b1f253-530a-437c-9b23-b0d5e1080100")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "J_{HiLetGo}")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 112.395 0)
 		(unit 1)
@@ -6400,7 +6924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Motor _DC"
 			(at 103.505 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6454,6 +6978,88 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "M_{flywheel,2}")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 154.94 144.145 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f354ae7-3919-4b81-8873-eb60e90e5896")
+		(property "Reference" "J_{LED,G1}"
+			(at 158.115 144.1449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 158.115 146.6849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 154.94 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba6ba358-5de3-4837-b051-cf5dc5aad27e")
+		)
+		(pin "1"
+			(uuid "c2ccad17-360b-4b72-abc0-259ca154454a")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "J_{LED,G1}")
 					(unit 1)
 				)
 			)
@@ -7148,6 +7754,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 151.13 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9648bf97-938c-4a90-bd3f-40f16a313f79")
+		(property "Reference" "J_{atomizer}"
+			(at 153.67 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 153.67 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a2751a9-fde2-401e-a763-7337dc4db95e")
+		)
+		(pin "2"
+			(uuid "a7b3b2d5-299d-4504-86d1-97cbb613a537")
+		)
+		(pin "3"
+			(uuid "2e1cba95-9cb5-4535-9822-a1e5a29284b7")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "J_{atomizer}")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECE445L:NTR4501NT1G")
 		(at 43.815 151.765 0)
 		(unit 1)
@@ -7473,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Motor _DC"
 			(at 139.065 43.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7637,7 +8328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Motor _DC"
 			(at 179.705 43.8149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,6 +8388,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.145 136.525 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbcb9bf3-0232-429f-bfb3-3fd829014724")
+		(property "Reference" "#PWR06"
+			(at 144.145 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.145 141.605 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.145 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.145 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.145 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa7e99b1-5fad-4490-a390-cc1dcdc75beb")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_DC")
 		(at 54.61 88.9 0)
 		(unit 1)
@@ -7719,7 +8488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Motor _DC"
 			(at 59.69 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8484,6 +9253,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 127 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8e85434-4db7-4b1c-b3cc-3c651e37bc3f")
+		(property "Reference" "#PWR05"
+			(at 127 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 127 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5c0b8b6-ec59-44bc-8e60-aad9eabe4814")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 93.98 0)
 		(unit 1)
@@ -8556,6 +9402,88 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 154.94 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe7ae1ae-0c2a-458f-a719-9d459bd871d5")
+		(property "Reference" "J_{LED,G3}"
+			(at 158.115 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 158.115 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "343d63a5-08d2-4933-b6cf-c40ed5358282")
+		)
+		(pin "1"
+			(uuid "8cf2b647-0094-4c64-bc0d-41306da4c029")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "J_{LED,G3}")
 					(unit 1)
 				)
 			)
