@@ -1567,26 +1567,6 @@
 		)
 		(uuid "9881d305-c8be-4404-9c2f-b3e23cdc28ab")
 	)
-	(text_box "TODO: Find footprint for fuse holder"
-		(exclude_from_sim no)
-		(at 99.06 97.155 0)
-		(size 14.605 8.0376)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "aa1103e3-df3a-4ee1-846b-dc25e7968121")
-	)
 	(junction
 		(at 132.715 106.045)
 		(diameter 0)
@@ -2624,7 +2604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Wuerth_696103101002-SMD_Horizontal_Open"
+		(property "Footprint" "ECE445L:WR-FSH_THT_2"
 			(at 104.775 94.107 90)
 			(hide yes)
 			(show_name no)
@@ -2635,7 +2615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/696108003002.pdf"
 			(at 104.775 95.885 0)
 			(hide yes)
 			(show_name no)

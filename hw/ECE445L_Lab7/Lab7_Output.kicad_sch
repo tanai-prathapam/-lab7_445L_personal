@@ -6454,8 +6454,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01e7d69b-2518-44c6-bead-5d194119d5bf")
-		(property "Reference" "Motor_V_{d}7"
-			(at 268.605 58.2929 0)
+		(property "Reference" "Motor_V_{d}6"
+			(at 269.24 58.2929 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6466,7 +6466,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 268.605 60.8329 0)
+			(at 269.24 60.8329 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6515,7 +6515,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_V_{d}7")
+					(reference "Motor_V_{d}6")
 					(unit 1)
 				)
 			)
@@ -6528,9 +6528,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0373a88e-6233-476e-a6a2-4691b9eac455")
 		(property "Reference" "Motor_In3"
@@ -6963,9 +6963,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0a9751a0-d2df-4396-9b91-b775a11bf3e6")
 		(property "Reference" "Motor_V_{d}2"
@@ -7380,13 +7380,13 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0cbf71d9-c373-4865-94cf-fe5565bfb601")
-		(property "Reference" "Motor_In11"
-			(at 268.605 86.2329 0)
+		(property "Reference" "Motor_In10"
+			(at 269.24 86.2329 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7397,7 +7397,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 268.605 88.7729 0)
+			(at 269.24 88.7729 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7446,7 +7446,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_In11")
+					(reference "Motor_In10")
 					(unit 1)
 				)
 			)
@@ -8409,9 +8409,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "18862690-a17c-40ee-a26a-190269722287")
 		(property "Reference" "Motor_V_{d}3"
@@ -11549,12 +11549,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "320c2740-3930-4537-8981-c4d071a8f4a5")
-		(property "Reference" "Motor_V_{d}6"
+		(property "Reference" "Motor_V_{d}7"
 			(at 245.11 76.7079 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +11615,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_V_{d}6")
+					(reference "Motor_V_{d}7")
 					(unit 1)
 				)
 			)
@@ -12257,9 +12257,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3ba961bb-c760-424b-94a3-27de6178be4c")
 		(property "Reference" "Motor_V_{d}8"
@@ -13210,9 +13210,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5972bb75-9255-4b1e-b86a-f2c7e671571c")
 		(property "Reference" "Motor_In12"
@@ -14296,9 +14296,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66fa35c9-be40-4122-b8bb-5d6326232d91")
 		(property "Reference" "Motor_In5"
@@ -16914,9 +16914,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8463f739-72d2-4e93-bd99-eb155f1f310d")
 		(property "Reference" "Motor_In8"
@@ -17393,7 +17393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc16be6-788c-40f4-90f7-a47ed4a16622")
-		(property "Reference" "Motor_V_{d}10"
+		(property "Reference" "Motor_V_{d}11"
 			(at 245.11 112.9029 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17454,7 +17454,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_V_{d}10")
+					(reference "Motor_V_{d}11")
 					(unit 1)
 				)
 			)
@@ -18413,9 +18413,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9c069ae4-8cb5-494c-ad70-0a1e245dd790")
 		(property "Reference" "Motor_V_{d}12"
@@ -20811,7 +20811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2fcfc3-fccf-437a-8882-f4393f725847")
-		(property "Reference" "Motor_In15"
+		(property "Reference" "Solenoid_In1"
 			(at 270.51 121.7929 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20872,7 +20872,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_In15")
+					(reference "Solenoid_In1")
 					(unit 1)
 				)
 			)
@@ -20968,8 +20968,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce3e6c32-b89c-42f2-ab2d-0f5b73b254c7")
-		(property "Reference" "Motor_In7"
-			(at 268.605 50.0379 0)
+		(property "Reference" "Motor_In6"
+			(at 269.24 50.0379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20980,7 +20980,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 268.605 52.5779 0)
+			(at 269.24 52.5779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21029,7 +21029,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_In7")
+					(reference "Motor_In6")
 					(unit 1)
 				)
 			)
@@ -21315,9 +21315,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cf995429-91f4-440e-a04f-73c1dc4d21b2")
 		(property "Reference" "Motor_V_{d}9"
@@ -21394,13 +21394,13 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cff139c6-d953-4fcc-ad81-bf32f2382cfe")
-		(property "Reference" "Motor_V_{d}11"
-			(at 268.605 94.4879 0)
+		(property "Reference" "Motor_V_{d}10"
+			(at 269.24 94.4879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21411,7 +21411,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 268.605 97.0279 0)
+			(at 269.24 97.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21460,7 +21460,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_V_{d}11")
+					(reference "Motor_V_{d}10")
 					(unit 1)
 				)
 			)
@@ -21925,9 +21925,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d4f404bb-c04c-4333-98db-9b58670ed441")
 		(property "Reference" "Motor_In2"
@@ -22285,12 +22285,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d9486edc-43f7-4c8c-99c6-216c1b20d1a6")
-		(property "Reference" "Motor_In6"
+		(property "Reference" "Motor_In7"
 			(at 245.11 68.4529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22351,7 +22351,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_In6")
+					(reference "Motor_In7")
 					(unit 1)
 				)
 			)
@@ -22794,9 +22794,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dff7b7d5-c8cf-4318-927d-27c9f0bde0b7")
 		(property "Reference" "Motor_V_{d}5"
@@ -23757,9 +23757,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef6800ae-b236-4d23-a5d0-59e8ca576dc0")
 		(property "Reference" "Motor_V_{d}4"
@@ -24005,9 +24005,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f65d58b6-4e49-439b-bc7b-1e10c8dd5e84")
 		(property "Reference" "Motor_In9"
@@ -24460,9 +24460,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb0bdf1f-506a-4707-a816-50d02ab0c4ab")
 		(property "Reference" "Motor_In4"
@@ -24791,7 +24791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2377a0-6b46-47d6-8ba8-bbb048392481")
-		(property "Reference" "Motor_In10"
+		(property "Reference" "Motor_In11"
 			(at 245.11 104.6479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24852,7 +24852,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Motor_In10")
+					(reference "Motor_In11")
 					(unit 1)
 				)
 			)

@@ -601,7 +601,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "bom\\Supercap from schematic.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -793,7 +793,7 @@
         "uuid": "69b823fd-c065-40ff-9bb9-c5835555f3eb"
       }
     ],
-    "used_designators": "J_{LED\\,G4}1,+3.3V1,#PWR1-8,#PWR10-94,C3-14,C_{core\\,2}1,U1-7,R_{choke}2-6,R_{choke}8-15,Y1-2,SPI_CS1,M_{flywheel\\,1}1,12V1,GND1,C_{filter}1,+5V1,SW1,SW6,R2-3,R7,C_{b}2-15,J1-2,J4-6,M_{feeder}1,M1-12,Motor_In2-16,SW_{bypass}2-6,SW_{bypass}8-15,D_{flyback}2-6,D_{flyback}8-15,Q1-17,uC_{1}←uC_{2}1,C_{b\\,1}1,R_{PU}2,R_{gate}2-6,R_{gate}8-15,C_{b\\,2}1,J_{LED\\,G1}1,J_{flash\\,1}1,L1-2,D1-3,J_{IDReader}1,LS1-2,F1,J_{atomizer}1,TP1-8,RxD_{ID}1,TP_{12V}1,J_{flash\\,2}1,J_{LED\\,G2}1,J_{LED\\,G3}1,Motor_V_{d}2-16,JP1,JP_{Motor}2-4,C_{b\\,3}1,C_{b\\,4}1,TxD_{ID}1,C_{core\\,1}1,C_{pi\\,1}1,C_{pi\\,2}1,Flywheels_In1,J_{Keypad}1,J_{test}1,J_{USB\\-C}1,L_{filter}1,M_{flywheel\\,2}1,R_{filter}1,Solenoid_V_{d}1,SPI_SCK1,U_{Decoder}1,uC_{1}→uC_{2}1",
+    "used_designators": "J_{LED\\,G4}1,+3.3V1,#PWR1-8,#PWR10-100,C3-14,C_{core\\,2}1,U1-7,R_{choke}2-6,R_{choke}8-15,Y1-2,SPI_CS1,M_{flywheel\\,1}1,12V1,GND1,+5V1,C_{filter}1,SW1,SW6,R1-3,R7,C_{b}2-15,J1-2,J4-6,M_{feeder}1,M1-12,Motor_In2-16,SW_{bypass}2-6,SW_{bypass}8-15,D_{flyback}2-6,D_{flyback}8-15,Q1-21,C_{b\\,1}1,uC_{1}←uC_{2}1,R_{PU}2,R_{gate}2-6,R_{gate}8-15,C_{b\\,2}1,J_{flash\\,1}1,J_{LED\\,G1}1,L1-2,D1-3,J_{IDReader}1,LS1-2,F1,J_{atomizer}1-2,TP1-8,RxD_{ID}1,TP_{12V}1,J_{LED\\,G2}1,J_{flash\\,2}1,J_{LED\\,G3}1,Motor_V_{d}2-16,JP1,JP_{Motor}2-4,C_{b\\,3}1,C_{b\\,4}1,C_{core\\,1}1,TxD_{ID}1,C_{pi\\,1}1,C_{pi\\,2}1,Flywheels_In1,J_{Keypad}1,J_{test}1,J_{USB\\-C}1,L_{filter}1,M_{flywheel\\,2}1,R_{filter}1,Solenoid_V_{d}1,SPI_SCK1,U_{Decoder}1,uC_{1}→uC_{2}1,J_{PA3\\,LED}2-3,R_{I_lim}2-4",
     "variants": []
   },
   "sheets": [

@@ -1976,8 +1976,8 @@
 		(uuid "0257701c-a576-470e-8e58-940442696944")
 	)
 	(rectangle
-		(start 13.97 156.21)
-		(end 82.55 195.58)
+		(start 83.82 115.57)
+		(end 152.4 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -2012,7 +2012,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 81.28 194.31 0)
+		(at 151.13 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2068,13 +2068,13 @@
 		(uuid "4897b41f-a5e0-4949-8395-241f7ee92a0a")
 	)
 	(junction
-		(at 42.545 169.545)
+		(at 112.395 128.905)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52bf5d3a-945a-4ca4-88e8-3042b2e15107")
 	)
 	(junction
-		(at 42.545 167.005)
+		(at 112.395 126.365)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ea9fff6-ddd7-49cb-81cb-486d9ae3514b")
@@ -2086,7 +2086,7 @@
 		(uuid "62d77f61-0b9b-473e-ab7c-ff197a482007")
 	)
 	(junction
-		(at 42.545 172.085)
+		(at 112.395 131.445)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71334a54-0636-4b24-89d6-c3d337be51a6")
@@ -2159,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 189.23) (xy 67.31 189.23)
+			(xy 139.7 148.59) (xy 137.16 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2319,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 172.085) (xy 42.545 172.085)
+			(xy 110.49 131.445) (xy 112.395 131.445)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 169.545) (xy 42.545 172.085)
+			(xy 112.395 128.905) (xy 112.395 131.445)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 167.005) (xy 42.545 169.545)
+			(xy 112.395 126.365) (xy 112.395 128.905)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 167.005) (xy 42.545 167.005)
+			(xy 110.49 126.365) (xy 112.395 126.365)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 169.545) (xy 42.545 169.545)
+			(xy 110.49 128.905) (xy 112.395 128.905)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 164.465) (xy 42.545 167.005)
+			(xy 112.395 123.825) (xy 112.395 126.365)
 		)
 		(stroke
 			(width 0)
@@ -2489,7 +2489,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 189.23) (xy 34.29 189.23)
+			(xy 101.6 148.59) (xy 104.14 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 168.275) (xy 67.945 168.275)
+			(xy 139.7 127.635) (xy 137.795 127.635)
 		)
 		(stroke
 			(width 0)
@@ -2559,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 172.085) (xy 42.545 173.99)
+			(xy 112.395 131.445) (xy 112.395 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2569,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 175.26) (xy 69.85 177.165)
+			(xy 139.7 134.62) (xy 139.7 136.525)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 187.325) (xy 34.29 189.23)
+			(xy 104.14 146.685) (xy 104.14 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +2619,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 177.165) (xy 67.945 177.165)
+			(xy 139.7 136.525) (xy 137.795 136.525)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2629,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 164.465) (xy 42.545 164.465)
+			(xy 110.49 123.825) (xy 112.395 123.825)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 186.69) (xy 69.85 189.23)
+			(xy 139.7 146.05) (xy 139.7 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2739,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 166.37) (xy 69.85 168.275)
+			(xy 139.7 125.73) (xy 139.7 127.635)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2808,7 @@
 		(uuid "fde3eaf6-7b09-41b0-9bc0-e064bdc6cc9a")
 	)
 	(label "uC SPI - uC_{1} ← uC_{2}"
-		(at 67.945 177.165 180)
+		(at 137.795 136.525 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2878,7 +2878,7 @@
 		(uuid "db1a9012-cb90-45c1-b690-12e502397ba7")
 	)
 	(label "uC SPI - uC_{1} → uC_{2}"
-		(at 67.945 168.275 180)
+		(at 137.795 127.635 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3125,7 +3125,7 @@
 	)
 	(global_label "uC SPI - SCK"
 		(shape input)
-		(at 67.31 189.23 180)
+		(at 137.16 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3135,7 +3135,7 @@
 		)
 		(uuid "32363722-b045-455e-8261-a6effb4f5133")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5968 189.23 0)
+			(at 120.4468 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +3341,7 @@
 	)
 	(global_label "uC SPI - CS"
 		(shape input)
-		(at 31.75 189.23 180)
+		(at 101.6 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3351,7 +3351,7 @@
 		)
 		(uuid "45f92c7b-e600-4e8f-97a3-52a61fe2dd4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.3068 189.23 0)
+			(at 86.1568 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +3653,7 @@
 	)
 	(global_label "PA3{slash}LG1"
 		(shape input)
-		(at 27.94 164.465 180)
+		(at 97.79 123.825 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3663,7 +3663,7 @@
 		)
 		(uuid "6f324fc2-6692-44c2-aa54-79a6836d64b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5486 164.465 0)
+			(at 86.3986 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,7 +3701,7 @@
 	)
 	(global_label "PA7{slash}LG2"
 		(shape input)
-		(at 27.94 167.005 180)
+		(at 97.79 126.365 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3711,7 +3711,7 @@
 		)
 		(uuid "7ee4e5d7-b87a-4b36-947c-05d89274eb24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5486 167.005 0)
+			(at 86.3986 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3749,7 @@
 	)
 	(global_label "PA21{slash}LG4"
 		(shape input)
-		(at 27.94 172.085 180)
+		(at 97.79 131.445 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3759,7 +3759,7 @@
 		)
 		(uuid "8a07c5ad-6df7-44d7-8ed9-435cc4da1542")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.3391 172.085 0)
+			(at 85.1891 131.445 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +4277,7 @@
 	)
 	(global_label "PA14{slash}LG3"
 		(shape input)
-		(at 27.94 169.545 180)
+		(at 97.79 128.905 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4287,7 +4287,7 @@
 		)
 		(uuid "f9b269dc-3fae-4b81-9e97-3a43470661e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.3391 169.545 0)
+			(at 85.1891 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 42.545 173.99 0)
+		(at 112.395 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4619,7 +4619,7 @@
 		(fields_autoplaced yes)
 		(uuid "39c07ee4-3797-4c1e-99de-0db689d97cd7")
 		(property "Reference" "#PWR041"
-			(at 42.545 180.34 0)
+			(at 112.395 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 42.545 179.07 0)
+			(at 112.395 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.545 173.99 0)
+			(at 112.395 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.545 173.99 0)
+			(at 112.395 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +4662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 42.545 173.99 0)
+			(at 112.395 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4774,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 175.26 0)
+		(at 139.7 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4785,7 +4785,7 @@
 		(fields_autoplaced yes)
 		(uuid "407f1092-9649-47e8-be7d-905246ba2ce7")
 		(property "Reference" "uC_{1}←uC_{2}1"
-			(at 71.755 170.6879 0)
+			(at 141.605 130.0479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4796,7 +4796,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 71.755 173.2279 0)
+			(at 141.605 132.5879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4807,7 +4807,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 74.93 175.26 0)
+			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +4818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 175.26 0)
+			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4829,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 175.26 0)
+			(at 139.7 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 33.02 167.005 0)
+		(at 102.87 126.365 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5319,7 +5319,7 @@
 		(fields_autoplaced yes)
 		(uuid "45f63647-44fe-4240-8a27-77278c2d83b7")
 		(property "Reference" "J_{test}1"
-			(at 34.29 158.75 0)
+			(at 104.14 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5329,7 +5329,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 34.29 161.29 0)
+			(at 104.14 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5339,7 +5339,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
-			(at 33.02 167.005 0)
+			(at 102.87 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5350,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 167.005 0)
+			(at 102.87 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5361,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 167.005 0)
+			(at 102.87 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6201,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 34.29 187.325 0)
+		(at 104.14 146.685 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6212,7 +6212,7 @@
 		(fields_autoplaced yes)
 		(uuid "7df7b577-fd96-4eec-ae07-370cdd121750")
 		(property "Reference" "SPI_{CS}1"
-			(at 36.195 182.7529 0)
+			(at 106.045 142.1129 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6223,7 +6223,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 36.195 185.2929 0)
+			(at 106.045 144.6529 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6234,7 +6234,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 39.37 187.325 0)
+			(at 109.22 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,7 +6245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 187.325 0)
+			(at 109.22 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6256,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 34.29 187.325 0)
+			(at 104.14 146.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +7787,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 186.69 0)
+		(at 139.7 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7798,7 +7798,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbcfcca3-d077-4a9e-aedd-22835737712e")
 		(property "Reference" "SPI_{SCK}1"
-			(at 72.39 182.1179 0)
+			(at 142.24 141.4779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7809,7 +7809,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 72.39 184.6579 0)
+			(at 142.24 144.0179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7820,7 +7820,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 74.93 186.69 0)
+			(at 144.78 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,7 +7831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 186.69 0)
+			(at 144.78 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +7842,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 186.69 0)
+			(at 139.7 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8192,7 +8192,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 166.37 0)
+		(at 139.7 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8203,7 +8203,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd0f66a8-1687-4f61-b7c5-203e50087813")
 		(property "Reference" "uC_{1}→uC_{2}1"
-			(at 71.755 161.7979 0)
+			(at 141.605 121.1579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8214,7 +8214,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 71.755 164.3379 0)
+			(at 141.605 123.6979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8225,7 +8225,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 74.93 166.37 0)
+			(at 144.78 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +8236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 166.37 0)
+			(at 144.78 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +8247,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 166.37 0)
+			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
