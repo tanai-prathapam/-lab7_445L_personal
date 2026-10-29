@@ -30,8 +30,23 @@ void SysTick_InitArm(uint32_t period, uint32_t priority){
   SysTick->CTRL = 0x07;      // enable SysTick with 80 MHz bus clock and interrupts
 }
 
-#if DEBUG_MODE == 1
-int main(void){ // main0 is used to test the DAC interface
+#if DEBUG_MODE == 2
+// MISTER TESTER
+int main(void){
+  __disable_irq(); 
+  LaunchPad_Init();
+  Clock_Init_HFXT_40_80MHz(0);  // 0.005% accurate running off external crystal oscillator
+  Mister_Init();
+  __enable_irq();
+
+  while(1){
+    Mister_On();
+    Mister_Off();
+  }
+}
+#elif DEBUG_MODE == 3
+// MOTOR TEST
+int main(void){
   uint32_t n=0;
   __disable_irq(); 
   LaunchPad_Init();
@@ -50,27 +65,52 @@ int main(void){ // main0 is used to test the DAC interface
     Clock_Delay(43);
   }
 }
-#elif DEBUG_MODE == 2
-// MISTER TESTER
+#elif DEBUG_MODE == 4
+// Barcode/RFID Test
 int main(void){
+  uint32_t n=0;
   __disable_irq(); 
   LaunchPad_Init();
   Clock_Init_HFXT_40_80MHz(0);  // 0.005% accurate running off external crystal oscillator
-  Mister_Init();
-  __enable_irq();
 
+  ST7735_InitR(INITR_REDTAB); //INITR_REDTAB for AdaFruit, INITR_BLACKTAB for SPI HiLetgo ST7735R
+  ST7735_FillScreen(ST7735_BLACK);
+  ST7735_SetCursor(0, 0);  
+  ST7735_OutString("ECE445L main0\n");
+  ST7735_OutString("Ramp output to DAC\n");
+  TIMG0->COUNTERREGS.CTRCTL &= ~0x01; // disarm if not using SDC
+  TLV5616_Init(0);
   while(1){
-    Mister_On();
-    Clock_Delay1ms(5000);
-    Mister_Off();
-    Clock_Delay1ms(5000);
+    TLV5616_OutNonBlocking(n);
+    n = (n+1)&0x0FFF; // 0 to 4095
+    Clock_Delay(43);
+  }
+}
+#elif DEBUG_MODE == 0
+// Master MSPM0
+int main(void){
+  uint32_t n=0;
+  __disable_irq(); 
+  LaunchPad_Init();
+  Clock_Init_HFXT_40_80MHz(0);  // 0.005% accurate running off external crystal oscillator
+
+  ST7735_InitR(INITR_REDTAB); //INITR_REDTAB for AdaFruit, INITR_BLACKTAB for SPI HiLetgo ST7735R
+  ST7735_FillScreen(ST7735_BLACK);
+  ST7735_SetCursor(0, 0);  
+  ST7735_OutString("ECE445L main0\n");
+  ST7735_OutString("Ramp output to DAC\n");
+  TIMG0->COUNTERREGS.CTRCTL &= ~0x01; // disarm if not using SDC
+  TLV5616_Init(0);
+  while(1){
+    TLV5616_OutNonBlocking(n);
+    n = (n+1)&0x0FFF; // 0 to 4095
+    Clock_Delay(43);
   }
 }
 #else
 int main(void){ 
+  // Slave MSPM0
   __disable_irq(); 
-   // ****ECE445L write this ****
-   
   // TIMG0 647 load value with prescale of 27
   // store arrays of uint16 create two macros one get 10 left bits and 6 for the right
   // struct with arrays 16 bit for the note and 16 bit for the delay

@@ -8,7 +8,7 @@
 #define PA1_MASK 0x02
 
 #define MISTER_PRESS_MS 100
-#define MISTER_RELEASE_MS 500
+#define MISTER_RELEASE_MS 100
 
 uint8_t mister_on = 0;
 
