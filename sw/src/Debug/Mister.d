@@ -1,6 +1,6 @@
 # FIXED
 
-music.o: ../music.c \
+Mister.o: ../Mister.c \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/DeviceFamily.h \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/m0p/mspm0g350x.h \
@@ -31,9 +31,7 @@ music.o: ../music.c \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
- ../Switch.h ../../inc/MCP4921.h ../../inc/Timer.h ../../inc/Clock.h \
- ../Lab7.h ../music.h ../fffff5voices.h ../mailbox.h ../piano256-data.h \
- ../Dump.h
+ ../../inc/LaunchPad.h ../../inc/Clock.h
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/msp.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/DeviceFamily.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/m0p/mspm0g350x.h:
@@ -64,13 +62,5 @@ C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_cpuss.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_debugss.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
-../Switch.h:
-../../inc/MCP4921.h:
-../../inc/Timer.h:
+../../inc/LaunchPad.h:
 ../../inc/Clock.h:
-../Lab7.h:
-../music.h:
-../fffff5voices.h:
-../mailbox.h:
-../piano256-data.h:
-../Dump.h:

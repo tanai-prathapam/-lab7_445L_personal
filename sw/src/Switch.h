@@ -26,21 +26,3 @@ void Switch_Init(void);
 //         true the Play switch is pressed 
 int Switch_Play(void);
 
-//---------------------Switch_PlayPressed---------------------
-// edge detection play switch
-// Input: none
-// Output: false the Play switch not pressed and released
-//         true the Play switch is pressed and released
-int Switch_PlayPressed(void);
-
-//---------------------Switch_SlowSpeed---------------------
-// read the speed switch
-// Input: none
-// Output: none
-void Switch_SlowSpeed(void);
-
-//---------------------Switch_Restart---------------------
-// read the restart switch
-// Input: none
-// Output: none
-void Switch_Restart(void);

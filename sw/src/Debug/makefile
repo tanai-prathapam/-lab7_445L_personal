@@ -15,17 +15,11 @@ ORDERED_OBJS += \
 "./Lab7main.o" \
 "./LaunchPad.o" \
 "./MCP4921.o" \
+"./Mister.o" \
 "./SPI.o" \
 "./ST7735_SDC.o" \
 "./Switch.o" \
-"./TLV5616.o" \
 "./Timer.o" \
-"./fffff.o" \
-"./fffff5voices.o" \
-"./jacketart.o" \
-"./mailbox.o" \
-"./music.o" \
-"./piano256-data.o" \
 "./ticlang/startup_mspm0g3507_ticlang.o" \
 "../mspm0g3507.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -153,8 +147,8 @@ ECE445L_Lab7.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "Clock.o" "Dump.o" "Lab7main.o" "LaunchPad.o" "MCP4921.o" "SPI.o" "ST7735_SDC.o" "Switch.o" "TLV5616.o" "Timer.o" "fffff.o" "fffff5voices.o" "jacketart.o" "mailbox.o" "music.o" "piano256-data.o" "ticlang\startup_mspm0g3507_ticlang.o" 
-	-$(RM) "Clock.d" "Dump.d" "Lab7main.d" "LaunchPad.d" "MCP4921.d" "SPI.d" "ST7735_SDC.d" "Switch.d" "TLV5616.d" "Timer.d" "fffff.d" "fffff5voices.d" "jacketart.d" "mailbox.d" "music.d" "piano256-data.d" "ticlang\startup_mspm0g3507_ticlang.d" 
+	-$(RM) "Clock.o" "Dump.o" "Lab7main.o" "LaunchPad.o" "MCP4921.o" "Mister.o" "SPI.o" "ST7735_SDC.o" "Switch.o" "Timer.o" "ticlang\startup_mspm0g3507_ticlang.o" 
+	-$(RM) "Clock.d" "Dump.d" "Lab7main.d" "LaunchPad.d" "MCP4921.d" "Mister.d" "SPI.d" "ST7735_SDC.d" "Switch.d" "Timer.d" "ticlang\startup_mspm0g3507_ticlang.d" 
 	-@echo ' '
 
 .PHONY: all clean dependents

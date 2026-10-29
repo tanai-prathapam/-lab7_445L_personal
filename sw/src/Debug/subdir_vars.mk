@@ -14,17 +14,11 @@ C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26
 ../Lab7main.c \
 C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/LaunchPad.c \
 C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/MCP4921.c \
+../Mister.c \
 C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/SPI.c \
 C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/ST7735_SDC.c \
 ../Switch.c \
-../TLV5616.c \
-C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/Timer.c \
-../fffff.c \
-../fffff5voices.c \
-../jacketart.c \
-../mailbox.c \
-../music.c \
-../piano256-data.c 
+C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/Timer.c 
 
 C_DEPS += \
 ./Clock.d \
@@ -32,17 +26,11 @@ C_DEPS += \
 ./Lab7main.d \
 ./LaunchPad.d \
 ./MCP4921.d \
+./Mister.d \
 ./SPI.d \
 ./ST7735_SDC.d \
 ./Switch.d \
-./TLV5616.d \
-./Timer.d \
-./fffff.d \
-./fffff5voices.d \
-./jacketart.d \
-./mailbox.d \
-./music.d \
-./piano256-data.d 
+./Timer.d 
 
 OBJS += \
 ./Clock.o \
@@ -50,17 +38,11 @@ OBJS += \
 ./Lab7main.o \
 ./LaunchPad.o \
 ./MCP4921.o \
+./Mister.o \
 ./SPI.o \
 ./ST7735_SDC.o \
 ./Switch.o \
-./TLV5616.o \
-./Timer.o \
-./fffff.o \
-./fffff5voices.o \
-./jacketart.o \
-./mailbox.o \
-./music.o \
-./piano256-data.o 
+./Timer.o 
 
 OBJS__QUOTED += \
 "Clock.o" \
@@ -68,17 +50,11 @@ OBJS__QUOTED += \
 "Lab7main.o" \
 "LaunchPad.o" \
 "MCP4921.o" \
+"Mister.o" \
 "SPI.o" \
 "ST7735_SDC.o" \
 "Switch.o" \
-"TLV5616.o" \
-"Timer.o" \
-"fffff.o" \
-"fffff5voices.o" \
-"jacketart.o" \
-"mailbox.o" \
-"music.o" \
-"piano256-data.o" 
+"Timer.o" 
 
 C_DEPS__QUOTED += \
 "Clock.d" \
@@ -86,17 +62,11 @@ C_DEPS__QUOTED += \
 "Lab7main.d" \
 "LaunchPad.d" \
 "MCP4921.d" \
+"Mister.d" \
 "SPI.d" \
 "ST7735_SDC.d" \
 "Switch.d" \
-"TLV5616.d" \
-"Timer.d" \
-"fffff.d" \
-"fffff5voices.d" \
-"jacketart.d" \
-"mailbox.d" \
-"music.d" \
-"piano256-data.d" 
+"Timer.d" 
 
 C_SRCS__QUOTED += \
 "C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/Clock.c" \
@@ -104,16 +74,10 @@ C_SRCS__QUOTED += \
 "../Lab7main.c" \
 "C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/LaunchPad.c" \
 "C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/MCP4921.c" \
+"../Mister.c" \
 "C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/SPI.c" \
 "C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/ST7735_SDC.c" \
 "../Switch.c" \
-"../TLV5616.c" \
-"C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/Timer.c" \
-"../fffff.c" \
-"../fffff5voices.c" \
-"../jacketart.c" \
-"../mailbox.c" \
-"../music.c" \
-"../piano256-data.c" 
+"C:/Users/jonat/OneDrive/Documents/UT 2026-2027/ECE 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/inc/Timer.c" 
 
 

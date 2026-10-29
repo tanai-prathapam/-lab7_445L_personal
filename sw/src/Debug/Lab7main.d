@@ -31,10 +31,8 @@ Lab7main.o: ../Lab7main.c \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_debugss.h \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h \
  C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h \
- ../../inc/LaunchPad.h ../../inc/Clock.h \
- C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/src/TLV5616.h \
- ../../inc/ST7735_SDC.h ../Lab7.h ../Switch.h ../music.h \
- ../fffff5voices.h ../mailbox.h ../jacketart.h ../Dump.h
+ ../../inc/LaunchPad.h ../../inc/Clock.h ../../inc/ST7735_SDC.h \
+ ../Lab7.h ../Switch.h ../Mister.h ../Dump.h
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/msp.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/DeviceFamily.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/m0p/mspm0g350x.h:
@@ -67,12 +65,8 @@ C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/hw_sysctl.h:
 C:/ti/mspm0_sdk_2_11_00_07/source/ti/devices/msp/peripherals/m0p/sysctl/hw_sysctl_mspm0g1x0x_g3x0x.h:
 ../../inc/LaunchPad.h:
 ../../inc/Clock.h:
-C:/Users/jonat/OneDrive/Documents/UT\ 2026-2027/ECE\ 445L/ece445l_lab7-10_fall26-4-ew-js-tp-ak/sw/src/TLV5616.h:
 ../../inc/ST7735_SDC.h:
 ../Lab7.h:
 ../Switch.h:
-../music.h:
-../fffff5voices.h:
-../mailbox.h:
-../jacketart.h:
+../Mister.h:
 ../Dump.h:
