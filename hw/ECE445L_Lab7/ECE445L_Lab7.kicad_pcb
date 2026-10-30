@@ -282,12 +282,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/37625409-a730-400d-ba16-ae0c618bb9eb")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -513,7 +507,7 @@
 			(uuid "1c184643-fe10-4e55-83dc-707374f29112")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1092,12 +1086,6 @@
 		(path "/e9432827-5ece-4de0-90fe-13c05c5c04a5/9e674858-80fe-4566-833c-49c24e9cb131")
 		(sheetname "/Lab7 IO/")
 		(sheetfile "Lab7_Input.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1323,7 +1311,7 @@
 			(uuid "5ed2acde-2bc0-4174-9bad-43250482e68f")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3231,15 +3219,15 @@
 			(uuid "166291d0-ebe4-44ee-b227-951f08df551d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.wrl"
+		(model "${KIPRJMOD}/Part Libraries/models/M0G3507QDGS32RQ1.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.75 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4545,12 +4533,6 @@
 		(path "/e9432827-5ece-4de0-90fe-13c05c5c04a5/f3cdf446-96a9-4b49-8650-f8854a4315b0")
 		(sheetname "/Lab7 IO/")
 		(sheetfile "Lab7_Input.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4776,7 +4758,7 @@
 			(uuid "2cfd194c-fdd8-45c9-abcc-e21b59864167")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7832,12 +7814,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/1e742ebe-22b2-4903-b098-6072919f4d95")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8063,7 +8039,7 @@
 			(uuid "890af4c0-c530-4044-b17a-f7f239cbddd8")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9184,12 +9160,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/fd61a06c-60bf-465d-8a28-506f992f56f6")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9415,7 +9385,7 @@
 			(uuid "446f3316-e3de-4f9c-a510-7e3f41f39b94")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12110,12 +12080,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/0bbb57f2-648f-48b9-adef-ffbe361b3a4d")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12341,7 +12305,7 @@
 			(uuid "fb608c4d-3b53-4eae-866b-8e1edd515092")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13131,12 +13095,6 @@
 		(path "/e9432827-5ece-4de0-90fe-13c05c5c04a5/885dd7d2-0f74-40ee-9614-6c2a0b06d11e")
 		(sheetname "/Lab7 IO/")
 		(sheetfile "Lab7_Input.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13362,7 +13320,7 @@
 			(uuid "acbba6c1-7ca7-4e8b-a520-0aecdb39c0c4")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13519,12 +13477,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/0d3db15a-a990-42be-8417-91a8834d08ae")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13750,7 +13702,7 @@
 			(uuid "c472fe16-7c67-449d-b7f9-df58c5201006")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14329,12 +14281,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/ece86772-ec03-4534-9900-043d3c3a9625")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14560,7 +14506,7 @@
 			(uuid "ca87eab2-8595-45a2-b048-23ea5773e6b7")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14717,12 +14663,6 @@
 		(path "/e9432827-5ece-4de0-90fe-13c05c5c04a5/0a4263c6-aa03-430a-887c-d9569c614f50")
 		(sheetname "/Lab7 IO/")
 		(sheetfile "Lab7_Input.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14948,7 +14888,7 @@
 			(uuid "dc550527-a0a7-4d8d-b70b-189e6f615e1d")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15931,15 +15871,15 @@
 			(uuid "19c8c46f-b287-486e-9698-b286f0c3da36")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-10_3x3mm_P0.5mm.wrl"
+		(model "${KIPRJMOD}/Part Libraries/models/M0G3507QDGS32RQ1.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.75 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -16510,12 +16450,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/885ec567-9b5d-4a1a-9676-ebd29eac3219")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16741,7 +16675,7 @@
 			(uuid "3569c53f-c7b6-4f2f-b271-50bc551c0471")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18040,12 +17974,6 @@
 		(path "/e9432827-5ece-4de0-90fe-13c05c5c04a5/86eb4578-b056-41bb-bee0-98aea8cb7d7a")
 		(sheetname "/Lab7 IO/")
 		(sheetfile "Lab7_Input.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18271,7 +18199,7 @@
 			(uuid "5ba2aa79-4407-4bb4-8d28-e24b7a7046b8")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18891,12 +18819,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/fce0aa88-fbdc-4a8c-8871-b83a615767a6")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19122,7 +19044,7 @@
 			(uuid "a2c95b45-2a61-4a83-84b1-80d545499c6e")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21551,7 +21473,7 @@
 			(uuid "4b500992-bee8-472b-9c53-88437ab69bf3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/adafruit_st7735r.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/adafruit_st7735r.stp"
 			(offset
 				(xyz 16.5 28.5 11)
 			)
@@ -22510,12 +22432,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/79fba377-3242-4b71-a91d-66dd92d36a7d")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22741,7 +22657,7 @@
 			(uuid "45c2cf87-d51f-4891-be83-f61fc3fdf4d0")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25681,26 +25597,37 @@
 			(uuid "adacec2f-4697-4239-9f49-4a5cea38afc6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/adafruit_st7735r.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/adafruit_st7735r.stp"
 			(offset
-				(xyz 29 -17.5 2.5)
+				(xyz -22.5 -26.5 11)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.95 1.3 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x16_P2.54mm_Vertical.step"
 			(offset
-				(xyz -25.25 9 2.5)
+				(xyz -19 24 11)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 180 0)
+				(xyz -0 -180 -90)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x16_P2.54mm_Vertical.step"
+			(offset
+				(xyz -19 24 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -27409,12 +27336,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/efda832e-5f5c-4eb6-acd3-6b4e33079936")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27640,7 +27561,7 @@
 			(uuid "701d89e5-6004-4bc5-9c5c-8c6ab128d517")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28116,12 +28037,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/1a283616-ef7d-4606-bb28-d6a3881d157c")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28347,7 +28262,7 @@
 			(uuid "70e7ca27-8dba-4403-9c52-e39d076fd7e7")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28504,12 +28419,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/cef144b6-40e6-4c49-b46b-3cc79811c800")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28735,7 +28644,7 @@
 			(uuid "9adde802-8974-424d-9053-7310230881b2")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28892,12 +28801,6 @@
 		(path "/a500a078-11dc-409b-bff9-a8c35e1dabf8/282738a5-28da-405e-8f39-2728bd6fb8e0")
 		(sheetname "/Lab7 Electromech/")
 		(sheetfile "Lab7_Output.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29123,7 +29026,7 @@
 			(uuid "89d621c8-38ef-4af2-a396-39e5b89fa96e")
 		)
 		(embedded_fonts no)
-		(model "NTR4501NT1G.stp"
+		(model "${KIPRJMOD}/Part Libraries/models/NTR4501NT1G.stp"
 			(offset
 				(xyz 0 0 0)
 			)
