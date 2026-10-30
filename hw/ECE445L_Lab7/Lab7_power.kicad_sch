@@ -2356,7 +2356,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 116.84 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -2954,7 +2954,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 144.145 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3250,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT"
+		(property "Footprint" "ECE445L:N78032C"
 			(at 132.715 104.521 0)
 			(hide yes)
 			(show_name no)

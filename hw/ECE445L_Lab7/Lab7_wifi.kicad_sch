@@ -1840,7 +1840,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1966,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 172.085 96.52 0)
 			(hide yes)
 			(show_name no)

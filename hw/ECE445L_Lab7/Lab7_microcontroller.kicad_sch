@@ -4436,6 +4436,17 @@
 				)
 			)
 		)
+		(property "Distributor" "Valvano"
+			(at 20.32 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "950c955c-94a9-4b64-927b-1a264e9d123b")
 		)
@@ -5723,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 29.21 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6062,7 +6073,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 156.845 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7682,6 +7693,17 @@
 			)
 		)
 		(property "Manufacturer" "ABRACON"
+			(at 46.355 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Valvano"
 			(at 46.355 135.89 0)
 			(hide yes)
 			(show_name no)

@@ -1590,7 +1590,7 @@
 	)
 	(rectangle
 		(start 227.965 13.335)
-		(end 283.21 151.13)
+		(end 283.21 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -1647,7 +1647,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 281.94 149.86 0)
+		(at 280.797 144.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1655,26 +1655,6 @@
 			(justify right)
 		)
 		(uuid "c6b1c591-e5b1-4b2b-8250-7cd92447b914")
-	)
-	(text_box "Need to figure out positive logic for decoders"
-		(exclude_from_sim no)
-		(at 175.895 148.59 0)
-		(size 50.165 15.875)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "79e96189-3ce3-42a9-b3e1-53e6f2d637a0")
 	)
 	(junction
 		(at 145.415 105.41)
@@ -1849,6 +1829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ab13adf-09a9-4d5f-a889-1d4ce2789b89")
+	)
+	(junction
+		(at 98.425 168.275)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b11f357-46d0-484a-9c0e-d162ee56bc54")
 	)
 	(junction
 		(at 133.35 60.325)
@@ -2091,6 +2077,18 @@
 		(uuid "ee2975f4-1632-4499-b24a-286cfbb5c756")
 	)
 	(junction
+		(at 63.5 165.735)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef29b4ab-bdc7-451d-a8e3-7ffd2e19b136")
+	)
+	(junction
+		(at 36.83 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd116e6-8971-411f-9aac-e9527d60a080")
+	)
+	(junction
 		(at 200.025 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2104,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.225 33.02) (xy 23.495 33.02)
+			(xy 19.05 33.02) (xy 23.495 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2114,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 123.19) (xy 73.66 123.19)
+			(xy 69.215 123.19) (xy 73.66 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 161.925) (xy 123.825 168.91)
+			(xy 120.015 165.1) (xy 120.015 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2214,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 172.72 78.105)
+			(xy 169.545 73.66) (xy 169.545 78.105)
 		)
 		(stroke
 			(width 0)
@@ -2234,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 123.19) (xy 122.555 123.19)
+			(xy 118.745 123.19) (xy 122.555 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2344,6 +2342,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 165.735) (xy 92.71 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14edf9a9-9825-4cdb-9254-8ec1ae08c5dc")
+	)
+	(wire
+		(pts
 			(xy 185.42 130.81) (xy 185.42 135.255)
 		)
 		(stroke
@@ -2364,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 78.105) (xy 73.66 78.105)
+			(xy 69.215 78.105) (xy 73.66 78.105)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 78.105) (xy 173.99 78.105)
+			(xy 169.545 78.105) (xy 173.99 78.105)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.225 116.205) (xy 22.225 123.19)
+			(xy 19.05 118.745) (xy 19.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 71.12) (xy 72.39 78.105)
+			(xy 69.215 73.66) (xy 69.215 78.105)
 		)
 		(stroke
 			(width 0)
@@ -2714,16 +2722,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 168.91) (xy 75.565 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe00012-5aba-4851-9a65-f9925aa9c0e1")
-	)
-	(wire
-		(pts
 			(xy 135.89 150.495) (xy 135.89 154.305)
 		)
 		(stroke
@@ -2784,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.225 78.105) (xy 23.495 78.105)
+			(xy 19.05 78.105) (xy 23.495 78.105)
 		)
 		(stroke
 			(width 0)
@@ -2831,16 +2829,6 @@
 			(type default)
 		)
 		(uuid "3a89eb86-0852-4070-a77d-1feb5b29f753")
-	)
-	(wire
-		(pts
-			(xy 74.295 161.925) (xy 74.295 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9df374-6405-4a0e-8bed-03e2fd9dde8a")
 	)
 	(wire
 		(pts
@@ -2894,6 +2882,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 165.735) (xy 63.5 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7cbe2f-8ec7-4f13-9413-62c80be3e1cd")
+	)
+	(wire
+		(pts
 			(xy 160.655 74.93) (xy 145.415 74.93)
 		)
 		(stroke
@@ -2904,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 116.205) (xy 121.285 123.19)
+			(xy 118.745 118.745) (xy 118.745 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3084,13 +3082,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 78.105) (xy 122.555 78.105)
+			(xy 118.11 78.105) (xy 122.555 78.105)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d7dd4f5-1e02-4f54-82f5-0972a731bf7a")
+	)
+	(wire
+		(pts
+			(xy 92.71 168.275) (xy 98.425 168.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8b0c16-0cb3-4b40-a2b5-91a41f2b466b")
 	)
 	(wire
 		(pts
@@ -3224,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.225 71.12) (xy 22.225 78.105)
+			(xy 19.05 73.66) (xy 19.05 78.105)
 		)
 		(stroke
 			(width 0)
@@ -3274,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.225 123.19) (xy 23.495 123.19)
+			(xy 19.05 123.19) (xy 23.495 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3301,6 +3309,16 @@
 			(type default)
 		)
 		(uuid "5f8b23f9-da6b-4ab3-968c-e3fb2a0362bb")
+	)
+	(wire
+		(pts
+			(xy 92.71 165.735) (xy 92.71 168.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9639a5-10e4-4b5d-bf8a-d73e667ffaa2")
 	)
 	(wire
 		(pts
@@ -3424,6 +3442,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 168.91) (xy 87.63 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba4e6bb-addf-407b-89ae-44b9bc934cfa")
+	)
+	(wire
+		(pts
 			(xy 196.85 105.41) (xy 196.85 106.045)
 		)
 		(stroke
@@ -3494,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.225 26.035) (xy 22.225 33.02)
+			(xy 19.05 28.575) (xy 19.05 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3624,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 165.735) (xy 98.425 175.895)
+			(xy 98.425 165.735) (xy 98.425 168.275)
 		)
 		(stroke
 			(width 0)
@@ -3644,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 161.925) (xy 22.86 168.91)
+			(xy 19.05 165.1) (xy 19.05 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3704,13 +3732,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 168.91) (xy 87.63 168.91)
+			(xy 98.425 168.275) (xy 98.425 175.895)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80596977-98b2-415b-b5f3-54c238e6f25d")
+		(uuid "80c57bd2-0a11-4997-9063-4489cf33a594")
 	)
 	(wire
 		(pts
@@ -3894,7 +3922,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 168.91) (xy 125.095 168.91)
+			(xy 120.015 168.91) (xy 125.095 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3914,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 73.66 33.02)
+			(xy 69.215 33.02) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3934,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 26.035) (xy 124.46 33.02)
+			(xy 121.285 28.575) (xy 121.285 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 26.035) (xy 72.39 33.02)
+			(xy 69.215 28.575) (xy 69.215 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3994,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.895 26.035) (xy 175.895 33.02)
+			(xy 172.72 28.575) (xy 172.72 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4074,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.205) (xy 172.72 123.19)
+			(xy 169.545 118.745) (xy 169.545 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4334,17 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.205 146.05) (xy 243.205 149.225)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b186fe19-ff2c-4e62-bff4-0c9236014fb1")
-	)
-	(wire
-		(pts
-			(xy 124.46 33.02) (xy 125.73 33.02)
+			(xy 121.285 33.02) (xy 125.73 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4444,23 +4462,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.895 33.02) (xy 177.165 33.02)
+			(xy 172.72 33.02) (xy 177.165 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb6ad89d-ad60-4e4e-9846-f2ade4a491ae")
-	)
-	(wire
-		(pts
-			(xy 243.205 149.225) (xy 240.03 149.225)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbefaf9b-2f2b-40ba-a65c-bfa7b133e3cb")
 	)
 	(wire
 		(pts
@@ -4784,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 116.205) (xy 72.39 123.19)
+			(xy 69.215 118.745) (xy 69.215 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4874,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 71.12) (xy 121.285 78.105)
+			(xy 118.11 73.66) (xy 118.11 78.105)
 		)
 		(stroke
 			(width 0)
@@ -4994,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 168.91) (xy 24.13 168.91)
+			(xy 19.05 168.91) (xy 24.13 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5054,7 +5062,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 173.99 123.19)
+			(xy 169.545 123.19) (xy 173.99 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5164,16 +5172,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 165.735) (xy 48.26 165.735)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc1c8c8-d53f-4b99-95f5-2d2722b33cce")
-	)
-	(wire
-		(pts
 			(xy 98.425 164.465) (xy 98.425 165.735)
 		)
 		(stroke
@@ -5232,7 +5230,7 @@
 		)
 		(uuid "13964a19-4367-4321-9cd4-30561165a79c")
 	)
-	(label "V_{d,flywheel 1}"
+	(label "V_{d,flywheels}"
 		(at 51.435 165.735 0)
 		(effects
 			(font
@@ -5252,7 +5250,7 @@
 		)
 		(uuid "24253761-f468-4fd5-92eb-78aff7ec7043")
 	)
-	(label "V_{d,flywheel 1}"
+	(label "V_{d,flywheels}"
 		(at 240.03 139.7 180)
 		(effects
 			(font
@@ -5301,16 +5299,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bd87cd1-b6b8-4d40-9684-98d1318ed636")
-	)
-	(label "V_{d,flywheel 2}"
-		(at 101.6 165.735 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fd6f43c-144d-42ca-b0c5-9e5520570f0b")
 	)
 	(label "V_{d,motor 7}"
 		(at 240.03 84.455 180)
@@ -5491,16 +5479,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa7e018c-6aad-4feb-827c-39e29c250312")
-	)
-	(label "V_{d,flywheel 2}"
-		(at 240.03 149.225 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb5377ff-3acb-4b42-b612-13b542ab7f07")
 	)
 	(global_label "Motor_{7}"
 		(shape input)
@@ -6317,7 +6295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 114.3 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,84 +6704,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 74.295 161.925 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "04a6e900-3c6a-48e0-b0e8-a93bd3190234")
-		(property "Reference" "#PWR035"
-			(at 74.295 165.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 74.295 158.115 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.295 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.295 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 74.295 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a7c733b-46cd-48eb-bd63-6eaee7f96398")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 124.46 26.035 0)
+		(at 121.285 28.575 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6813,7 +6714,7 @@
 		(dnp no)
 		(uuid "07bd88cd-a86b-4b4b-9e71-953670b3dcbe")
 		(property "Reference" "#PWR030"
-			(at 124.46 29.845 0)
+			(at 121.285 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6725,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 22.225 0)
+			(at 121.285 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6834,7 +6735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 26.035 0)
+			(at 121.285 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +6746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 26.035 0)
+			(at 121.285 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +6757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 26.035 0)
+			(at 121.285 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7156,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 140.97 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -7581,7 +7482,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7688,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 184.785 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7770,7 +7671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 113.665 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8046,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 72.39 26.035 0)
+		(at 69.215 28.575 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8155,7 +8056,7 @@
 		(dnp no)
 		(uuid "1695b1ec-94b0-43a8-8fde-8d8cf2691ed2")
 		(property "Reference" "#PWR017"
-			(at 72.39 29.845 0)
+			(at 69.215 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,7 +8067,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 22.225 0)
+			(at 69.215 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8176,7 +8077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 26.035 0)
+			(at 69.215 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,7 +8088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 26.035 0)
+			(at 69.215 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8198,7 +8099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 26.035 0)
+			(at 69.215 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8449,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 184.785 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -8735,7 +8636,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 88.9 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -8777,7 +8678,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 175.895 26.035 0)
+		(at 172.72 28.575 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8787,7 +8688,7 @@
 		(dnp no)
 		(uuid "1ace7b0d-fb5b-4c77-8049-ff9a0577def7")
 		(property "Reference" "#PWR032"
-			(at 175.895 29.845 0)
+			(at 172.72 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8798,7 +8699,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 175.895 22.225 0)
+			(at 172.72 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8808,7 +8709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.895 26.035 0)
+			(at 172.72 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,7 +8720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.895 26.035 0)
+			(at 172.72 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.895 26.035 0)
+			(at 172.72 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8997,7 +8898,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9185,7 +9086,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 140.335 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9437,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 90.805 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -9643,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 86.36 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -9725,7 +9626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 214.63 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,7 +9942,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 36.195 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -10167,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 86.36 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -10537,7 +10438,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 192.405 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -10724,7 +10625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 64.77 20.9549 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,7 +10817,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 84.455 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -11042,7 +10943,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 187.96 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -11194,7 +11095,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 22.225 71.12 0)
+		(at 19.05 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11204,7 +11105,7 @@
 		(dnp no)
 		(uuid "2db5cdbe-8e08-4fdc-b67d-9086cc495a19")
 		(property "Reference" "#PWR062"
-			(at 22.225 74.93 0)
+			(at 19.05 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11215,7 +11116,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 22.225 67.31 0)
+			(at 19.05 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11225,7 +11126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.225 71.12 0)
+			(at 19.05 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11236,7 +11137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.225 71.12 0)
+			(at 19.05 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11247,7 +11148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 22.225 71.12 0)
+			(at 19.05 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,7 +11589,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 189.865 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11980,7 +11881,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 137.795 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12087,7 +11988,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 84.455 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +12232,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 22.225 26.035 0)
+		(at 19.05 28.575 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12341,7 +12242,7 @@
 		(dnp no)
 		(uuid "3d7bfa7a-bf5c-443f-96ec-9e07afdbfbe1")
 		(property "Reference" "#PWR014"
-			(at 22.225 29.845 0)
+			(at 19.05 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12352,7 +12253,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 22.225 22.225 0)
+			(at 19.05 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12362,7 +12263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.225 26.035 0)
+			(at 19.05 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +12274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.225 26.035 0)
+			(at 19.05 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12384,7 +12285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 22.225 26.035 0)
+			(at 19.05 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12429,7 +12330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 114.3 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,7 +12815,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 37.465 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -13040,7 +12941,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13388,97 +13289,6 @@
 	)
 	(symbol
 		(lib_id "ECE445L:SW_Push")
-		(at 80.645 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b68cfd9-84d7-48cb-93bc-4a9d4987a1a8")
-		(property "Reference" "SW_{bypass}14"
-			(at 80.645 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NO"
-			(at 80.645 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECE445L:SW_PUSH_6mm"
-			(at 80.645 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.645 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 80.645 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Checkout"
-			(at 80.645 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b52731e6-28ec-4a40-9edc-f1a9e39e3037")
-		)
-		(pin "2"
-			(uuid "90d30108-3b12-4503-b1d3-acbfd44ac383")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "SW_{bypass}14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE445L:SW_Push")
 		(at 28.575 78.105 0)
 		(unit 1)
 		(body_style 1)
@@ -13739,7 +13549,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 121.285 116.205 0)
+		(at 118.745 118.745 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13749,7 +13559,7 @@
 		(dnp no)
 		(uuid "5f66d693-8fce-481b-8a17-97811461c767")
 		(property "Reference" "#PWR080"
-			(at 121.285 120.015 0)
+			(at 118.745 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13760,7 +13570,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.285 112.395 0)
+			(at 118.745 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13770,7 +13580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.285 116.205 0)
+			(at 118.745 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13781,7 +13591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.285 116.205 0)
+			(at 118.745 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13792,7 +13602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.285 116.205 0)
+			(at 118.745 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13920,7 +13730,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 72.39 116.205 0)
+		(at 69.215 118.745 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13930,7 +13740,7 @@
 		(dnp no)
 		(uuid "6103f18f-7560-4d4c-b3f5-39e595406e73")
 		(property "Reference" "#PWR077"
-			(at 72.39 120.015 0)
+			(at 69.215 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +13751,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 112.395 0)
+			(at 69.215 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13951,7 +13761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 116.205 0)
+			(at 69.215 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13962,7 +13772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 116.205 0)
+			(at 69.215 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13973,7 +13783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 116.205 0)
+			(at 69.215 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13997,7 +13807,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 22.225 116.205 0)
+		(at 19.05 118.745 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14007,7 +13817,7 @@
 		(dnp no)
 		(uuid "6262b226-8ac0-420f-b4f0-28b3d92f2870")
 		(property "Reference" "#PWR074"
-			(at 22.225 120.015 0)
+			(at 19.05 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14018,7 +13828,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 22.225 112.395 0)
+			(at 19.05 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14028,7 +13838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.225 116.205 0)
+			(at 19.05 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14039,7 +13849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.225 116.205 0)
+			(at 19.05 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14050,7 +13860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 22.225 116.205 0)
+			(at 19.05 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14040,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 138.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14435,7 +14245,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
@@ -14496,7 +14306,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 121.285 71.12 0)
+		(at 118.11 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14506,7 +14316,7 @@
 		(dnp no)
 		(uuid "6a6b09c4-d39c-4299-a4b0-b1be8dab5271")
 		(property "Reference" "#PWR068"
-			(at 121.285 74.93 0)
+			(at 118.11 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14517,7 +14327,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 121.285 67.31 0)
+			(at 118.11 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14527,7 +14337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.285 71.12 0)
+			(at 118.11 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14538,7 +14348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.285 71.12 0)
+			(at 118.11 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14549,7 +14359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.285 71.12 0)
+			(at 118.11 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14638,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 84.455 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -15070,7 +14880,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 137.16 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15131,7 +14941,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 71.12 0)
+		(at 169.545 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15141,7 +14951,7 @@
 		(dnp no)
 		(uuid "6edc15d7-cea8-4447-875a-09759a032d0b")
 		(property "Reference" "#PWR071"
-			(at 172.72 74.93 0)
+			(at 169.545 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15152,7 +14962,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 172.72 67.31 0)
+			(at 169.545 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15162,7 +14972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 71.12 0)
+			(at 169.545 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15173,7 +14983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 71.12 0)
+			(at 169.545 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15184,7 +14994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 71.12 0)
+			(at 169.545 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15208,7 +15018,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 123.825 161.925 0)
+		(at 120.015 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15218,7 +15028,7 @@
 		(dnp no)
 		(uuid "70189593-a8f2-426f-b846-7fb410c88c72")
 		(property "Reference" "#PWR033"
-			(at 123.825 165.735 0)
+			(at 120.015 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15229,7 +15039,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 123.825 158.115 0)
+			(at 120.015 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15239,7 +15049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.825 161.925 0)
+			(at 120.015 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15250,7 +15060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.825 161.925 0)
+			(at 120.015 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15261,7 +15071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.825 161.925 0)
+			(at 120.015 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15306,7 +15116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 165.735 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15576,7 +15386,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 133.35 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -15702,7 +15512,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 133.985 127 0)
 			(hide yes)
 			(show_name no)
@@ -15784,7 +15594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 217.17 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15932,7 +15742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 164.465 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16186,7 +15996,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 40.005 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -16293,7 +16103,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 85.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -16481,7 +16291,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 40.64 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -16588,7 +16398,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 185.42 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -17087,7 +16897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 65.405 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17341,7 +17151,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18047,87 +17857,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 243.205 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9895ce67-71c7-47af-b7ca-5c737f696969")
-		(property "Reference" "Flywheel_V_{d}2"
-			(at 245.11 141.4779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 245.11 144.0179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
-			(at 248.285 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.285 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 243.205 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe8a6b0e-e649-4389-be76-f03fb33f9224")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Flywheel_V_{d}2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 116.205 0)
+		(at 169.545 118.745 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18137,7 +17868,7 @@
 		(dnp no)
 		(uuid "989b03be-08c8-4577-868a-35f809f8cae5")
 		(property "Reference" "#PWR083"
-			(at 172.72 120.015 0)
+			(at 169.545 122.555 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18148,7 +17879,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 172.72 112.395 0)
+			(at 169.545 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18158,7 +17889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 116.205 0)
+			(at 169.545 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18169,7 +17900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 116.205 0)
+			(at 169.545 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18180,7 +17911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 116.205 0)
+			(at 169.545 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18269,7 +18000,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -18588,7 +18319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6750b9d-1c5a-4bba-b462-f1358ce5ec4c")
-		(property "Reference" "Flywheel_V_{d}1"
+		(property "Reference" "Flywheels_V_{d}1"
 			(at 245.11 131.9529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18649,7 +18380,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "Flywheel_V_{d}1")
+					(reference "Flywheels_V_{d}1")
 					(unit 1)
 				)
 			)
@@ -19283,7 +19014,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 37.465 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19593,7 +19324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 162.56 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19741,7 +19472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 214.63 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19933,7 +19664,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 35.56 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -19994,7 +19725,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 72.39 71.12 0)
+		(at 69.215 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20004,7 +19735,7 @@
 		(dnp no)
 		(uuid "c025f338-1db0-4e2a-842c-1a3d2a30aeb4")
 		(property "Reference" "#PWR065"
-			(at 72.39 74.93 0)
+			(at 69.215 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20015,7 +19746,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 72.39 67.31 0)
+			(at 69.215 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20025,7 +19756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 71.12 0)
+			(at 69.215 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20036,7 +19767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 71.12 0)
+			(at 69.215 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20047,7 +19778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 71.12 0)
+			(at 69.215 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20183,7 +19914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 116.205 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20422,7 +20153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 64.77 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20570,7 +20301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 162.56 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21164,7 +20895,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 40.005 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -21859,7 +21590,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 133.985 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -22064,7 +21795,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 36.83 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -22203,7 +21934,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 22.86 161.925 0)
+		(at 19.05 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22213,7 +21944,7 @@
 		(dnp no)
 		(uuid "d8bd2738-eda9-48e1-94a6-10d20432edc4")
 		(property "Reference" "#PWR034"
-			(at 22.86 165.735 0)
+			(at 19.05 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22224,7 +21955,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 22.86 158.115 0)
+			(at 19.05 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22234,7 +21965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 161.925 0)
+			(at 19.05 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22245,7 +21976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 161.925 0)
+			(at 19.05 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22256,7 +21987,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 22.86 161.925 0)
+			(at 19.05 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22424,7 +22155,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 136.525 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -22662,7 +22393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "ESD5Z12"
 			(at 64.77 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23239,7 +22970,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 35.56 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -23365,7 +23096,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 135.89 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -23553,7 +23284,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 88.9 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -23958,7 +23689,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 137.795 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -24268,7 +23999,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 35.56 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -24394,7 +24125,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 36.195 127 0)
 			(hide yes)
 			(show_name no)
@@ -24739,7 +24470,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 189.23 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -24987,7 +24718,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 40.005 90.17 0)
 			(hide yes)
 			(show_name no)

@@ -6922,7 +6922,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 91.44 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7106,6 +7106,17 @@
 				)
 			)
 		)
+		(property "Distributor" "Valvano"
+			(at 60.96 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fa9f29dc-b4a4-4d58-80b2-b247772c3a89")
 		)
@@ -7188,6 +7199,17 @@
 				)
 			)
 		)
+		(property "Distributor" "Valvano"
+			(at 61.595 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee7928b8-177c-489e-9809-87267258cdd9")
 		)
@@ -7260,6 +7282,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.06 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Valvano"
 			(at 99.06 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -7492,7 +7525,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 91.44 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -7795,7 +7828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N914"
+		(property "Value" "PE1403M1Q"
 			(at 183.515 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +8124,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Valvano"
 			(at 101.6 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9559,7 +9592,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 53.34 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +9761,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 53.975 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10251,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 142.24 42.418 0)
 			(hide yes)
 			(show_name no)
@@ -10519,7 +10552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N914"
+		(property "Value" "PE1403M1Q"
 			(at 139.7 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,6 +11299,17 @@
 				)
 			)
 		)
+		(property "Distributor" "Valvano"
+			(at 99.06 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a6793da-f6a0-425b-ab79-7228c5924d1a")
 		)
@@ -11828,7 +11872,7 @@
 				(justify left top)
 			)
 		)
-		(property "Distributor" "Checkout"
+		(property "Distributor" "Valvano"
 			(at 186.055 42.545 0)
 			(hide yes)
 			(show_name no)
