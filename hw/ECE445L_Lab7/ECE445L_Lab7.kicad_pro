@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|73676900|182652267|931f27ad-5c96-403f-9cd5-360bb4ce6799|a4ff7e64-51df-448b-b398-4876602ca641",
+          "screen goes over"
+        ],
+        [
+          "silk_overlap|75702000|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|06e5d06c-48fe-4992-802b-e023572847c5",
+          "screen goes over"
+        ],
+        [
+          "silk_overlap|85922000|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|fd516bd5-9f49-485c-997d-b93524ebb513",
+          "screen goes over"
+        ],
+        [
+          "silk_overlap|92071961|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|f37d48b0-cb59-4a1b-99dd-0b3a9a1b3400",
+          "screen goes over"
+        ],
+        [
+          "via_dangling|115704157|66516180|8e8477cb-d40e-4ef4-a1e8-43032a1aea63|00000000-0000-0000-0000-000000000000",
+          "emi suppression"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -498,7 +519,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
@@ -506,8 +527,8 @@
       "isolated_pin_label": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
