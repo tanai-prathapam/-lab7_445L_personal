@@ -4533,16 +4533,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 125.73) (xy 100.965 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6390fa3b-40cf-46bb-af58-8b5facd3cc14")
-	)
-	(wire
-		(pts
 			(xy 146.05 128.27) (xy 146.05 126.365)
 		)
 		(stroke
@@ -4590,16 +4580,6 @@
 			(type default)
 		)
 		(uuid "749e6475-fe80-421b-84ad-041cef49ee84")
-	)
-	(wire
-		(pts
-			(xy 99.06 128.27) (xy 99.06 130.175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7744b3ed-f5b3-4459-a760-e52e1dfd9ca2")
 	)
 	(wire
 		(pts
@@ -4793,16 +4773,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 128.27) (xy 99.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a9bef2-77da-4df8-a6be-848e62d2a4cf")
-	)
-	(wire
-		(pts
 			(xy 53.975 58.42) (xy 53.975 56.515)
 		)
 		(stroke
@@ -4840,16 +4810,6 @@
 			(type default)
 		)
 		(uuid "a7bc3531-be23-411a-a091-dcb96bc6e541")
-	)
-	(wire
-		(pts
-			(xy 99.06 123.825) (xy 99.06 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e6c65f-833a-44f3-8e16-3c904cc0669d")
 	)
 	(wire
 		(pts
@@ -5320,30 +5280,6 @@
 		(uuid "1a31d1cc-6146-4f7f-a93e-576378df1bae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.0621 42.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PA21{slash}LG4"
-		(shape input)
-		(at 91.44 135.255 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b0f77d5-0007-4d7f-8a65-8820210350e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.8391 135.255 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,99 +7162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 99.06 120.015 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2307cc20-08d7-45c1-9bf1-6c229431f97f")
-		(property "Reference" "R_{I_lim}4"
-			(at 101.6 118.7449 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 101.6 121.2849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.282 120.015 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Valvano"
-			(at 99.06 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2887a29c-442c-4ec9-907f-19815bbd476f")
-		)
-		(pin "1"
-			(uuid "aa7f3583-3653-4e99-8e19-3cbf9610e159")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
-					(reference "R_{I_lim}4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 276.225 113.03 0)
 		(unit 1)
@@ -7391,175 +7234,6 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE445L:NTR4501NT1G")
-		(at 91.44 135.255 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29f212d9-6025-454a-9ed6-41fc9d874e12")
-		(property "Reference" "Q21"
-			(at 101.854 133.9849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NTR4501NT1G"
-			(at 101.854 136.5249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ECE445L:SOT96P237X111-3N"
-			(at 107.95 230.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NTR4501N-D.PDF"
-			(at 107.95 330.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "N channel MOSFEt; SOT-23"
-			(at 93.98 130.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.11"
-			(at 107.95 530.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "863-NTR4501NT1G"
-			(at 107.95 630.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "0.46"
-			(at 107.95 730.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 107.95 830.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NTR4501NT1G"
-			(at 107.95 930.175 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Distributor" "Valvano"
-			(at 91.44 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 91.44 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "371c36bb-281d-42f6-ae37-06cc4b057a0e")
-		)
-		(pin "2"
-			(uuid "27a9501c-5535-4ed8-a245-06af565f1bf5")
-		)
-		(pin "3"
-			(uuid "c8cd8224-5742-4515-be69-d65c15b2604b")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
-					(reference "Q21")
 					(unit 1)
 				)
 			)
@@ -9047,83 +8721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 99.06 116.205 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e7bc859-044f-45d4-9301-e45c1c92f990")
-		(property "Reference" "#PWR099"
-			(at 99.06 120.015 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 99.06 112.395 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 116.205 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4e8a6ca-ad57-4e27-8ab6-6a62da1d3490")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 243.205 49.53 0)
 		(unit 1)
@@ -9960,88 +9557,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 106.045 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b6334d3-d2af-4e10-b536-bc80c69dba55")
-		(property "Reference" "J_{PA21,LED}1"
-			(at 109.22 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 109.22 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 106.045 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.045 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.045 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aba9ef87-853d-40c6-935e-c23e68e51a6a")
-		)
-		(pin "1"
-			(uuid "651309db-f634-4930-b0d0-393b5fe693f6")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
-					(reference "J_{PA21,LED}1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
 		(at 106.045 83.185 0)
 		(unit 1)
 		(body_style 1)
@@ -10446,84 +9961,6 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 140.335 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aff8ec4d-13a3-4100-b36e-56f2c563877b")
-		(property "Reference" "#PWR0100"
-			(at 99.06 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "644fa75f-d1de-4a49-a075-273493d7b32b")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
-					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
