@@ -16,6 +16,7 @@
 #include "Lab7.h"
 #include "Switch.h"
 #include "Mister.h"
+#include "BarcodeReader.h"
 #include "Dump.h"
 
 volatile uint32_t JitterReady = 0;
@@ -79,11 +80,10 @@ int main(void){
   ST7735_OutString("ECE445L main0\n");
   ST7735_OutString("Ramp output to DAC\n");
   TIMG0->COUNTERREGS.CTRCTL &= ~0x01; // disarm if not using SDC
-  TLV5616_Init(0);
+  Barcode_Init();
+
   while(1){
-    TLV5616_OutNonBlocking(n);
-    n = (n+1)&0x0FFF; // 0 to 4095
-    Clock_Delay(43);
+    
   }
 }
 #elif DEBUG_MODE == 0

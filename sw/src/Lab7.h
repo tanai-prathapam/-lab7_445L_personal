@@ -4,4 +4,4 @@
 // 3 = Motor Test
 // 4 = Barcode/RFID Tester
 
-#define DEBUG_MODE 2
+#define DEBUG_MODE 4
