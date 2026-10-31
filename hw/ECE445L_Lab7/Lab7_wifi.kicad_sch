@@ -948,7 +948,7 @@
 		)
 	)
 	(rectangle
-		(start 102.87 84.328)
+		(start 100.33 84.328)
 		(end 204.343 112.903)
 		(stroke
 			(width 0)
@@ -968,6 +968,26 @@
 			)
 		)
 		(uuid "178bd0d9-b8f0-4f20-acb6-e6c1cd65e19e")
+	)
+	(text_box "Need to confirm correct PU resistor value"
+		(exclude_from_sim no)
+		(at 102.235 103.505 0)
+		(size 17.78 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c3a38ad1-5ed0-403a-b57c-23885907b482")
 	)
 	(junction
 		(at 188.595 100.33)
@@ -1033,6 +1053,16 @@
 	)
 	(wire
 		(pts
+			(xy 103.505 95.25) (xy 103.505 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690df31b-387f-4042-9b05-be5262ddc68e")
+	)
+	(wire
+		(pts
 			(xy 188.595 100.33) (xy 188.595 102.235)
 		)
 		(stroke
@@ -1093,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.345) (xy 105.41 96.52)
+			(xy 103.505 88.265) (xy 103.505 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 96.52) (xy 128.905 96.52)
+			(xy 103.505 96.52) (xy 128.905 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1524,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 105.41 93.345 0)
+		(at 103.505 88.265 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1504,7 +1534,7 @@
 		(dnp no)
 		(uuid "461b961f-3b2f-4686-8538-19c7f429347a")
 		(property "Reference" "#PWR044"
-			(at 105.41 97.155 0)
+			(at 103.505 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1515,7 +1545,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 107.95 93.345 0)
+			(at 106.045 88.265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,7 +1555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 93.345 0)
+			(at 103.505 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1536,7 +1566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 93.345 0)
+			(at 103.505 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1547,7 +1577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 93.345 0)
+			(at 103.505 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1862,7 +1892,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0805X475M250CT "
+		(property "Manufacturer_Part_Number" "C1608X7S1A475M080AC "
 			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1873,7 +1903,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "791-0805X475M250CT "
+		(property "Mouser Part Number" "810-C1608X7S1A475MAC"
 			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1894,6 +1924,132 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9e7b1dfa-492f-407a-9f72-cee77954c346"
 					(reference "C_{b}17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:R_0.125W")
+		(at 103.505 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86a18b86-a499-4fb1-8e61-cf89a97d9e88")
+		(property "Reference" "R_{PU}3"
+			(at 106.045 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 106.045 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/CRM0805_1206_2010.pdf"
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Valvano"
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns "
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRM0805-FX-1002ELF "
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "652-CRM0805FX1002ELF "
+			(at 103.505 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcfa7beb-1b73-4313-b793-028bd7bf53a3")
+		)
+		(pin "2"
+			(uuid "37bb6795-2cdd-4b2e-b2c0-0aa2a41d163a")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9e7b1dfa-492f-407a-9f72-cee77954c346"
+					(reference "R_{PU}3")
 					(unit 1)
 				)
 			)

@@ -7699,7 +7699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 185.7502 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7732,7 +7732,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 184.785 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8559,7 +8559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 185.7502 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8592,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 184.785 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -10506,7 +10506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 85.4202 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +10539,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 84.455 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -10632,7 +10632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 188.9252 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -10665,7 +10665,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 187.96 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -11677,7 +11677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 85.4202 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11710,7 +11710,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 84.455 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12630,7 +12630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 134.3152 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -12663,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -13856,7 +13856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 37.1602 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13889,7 +13889,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 36.195 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14185,7 +14185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 85.4202 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -14218,7 +14218,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 84.455 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -15019,7 +15019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 134.3152 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -15052,7 +15052,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 133.35 112.395 0)
 			(hide yes)
 			(show_name no)
@@ -18729,7 +18729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 36.5252 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -18762,7 +18762,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 35.56 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -20933,7 +20933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.4902 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -20966,7 +20966,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 136.525 22.225 0)
 			(hide yes)
 			(show_name no)
@@ -21850,7 +21850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 36.5252 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -21883,7 +21883,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 35.56 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -21976,7 +21976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 136.8552 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -22009,7 +22009,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 135.89 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -22958,7 +22958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 36.5252 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -22991,7 +22991,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Valvano"
+		(property "Distributor" "Mouser"
 			(at 35.56 110.49 0)
 			(hide yes)
 			(show_name no)
