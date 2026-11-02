@@ -1,0 +1,264 @@
+(footprint "N78032C"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3-SIP Module_2025-1.1")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 2.54 2.4 0)
+		(layer "F.SilkS")
+		(uuid "b8b14008-80ed-45a5-bc6b-686684eb3146")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "N78032C"
+		(at 2.54 2.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9f9842f1-6117-4c57-adf1-31bfae32a611")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.meanwellusa.com/webapp/product/search.aspx?prod=N78-2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b60a50ec-3eb1-47c9-85d8-6260cc1d11dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "DC/DC Converters - Through Hole 6-32Vin 3.3Vout 2A 3 Pin Vert Switching Regulator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aabf1b3f-41b0-43b8-8976-1b3aae49658a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.21 -2.1)
+		(end 8.29 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b6c49b4-c6fe-4552-8c57-746b64ff1c6c")
+	)
+	(fp_line
+		(start -3.21 6.9)
+		(end -3.21 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4dea35ab-d15f-4ffb-8106-d1968882a272")
+	)
+	(fp_line
+		(start 0 -2.7)
+		(end 0 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c379331-9d02-48ba-af53-8ba80ccc5f8f")
+	)
+	(fp_line
+		(start 0 -2.6)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7505ccf6-9aad-407f-8e2a-4ba6b22235ef")
+	)
+	(fp_line
+		(start 8.29 -2.1)
+		(end 8.29 6.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d272ed3-985c-45bb-91cc-0177a12d68c3")
+	)
+	(fp_line
+		(start 8.29 6.9)
+		(end -3.21 6.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6fafa41-2c85-4b8d-a9f0-3a1733dbb33b")
+	)
+	(fp_arc
+		(start 0 -2.7)
+		(mid 0.05 -2.65)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45864e74-292b-4839-a712-668a920151a8")
+	)
+	(fp_arc
+		(start 0 -2.6)
+		(mid -0.05 -2.65)
+		(end 0 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e43d003f-aeb1-46c2-bb23-5562b2416b7a")
+	)
+	(fp_line
+		(start -4.21 -3.1)
+		(end 9.29 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3217eb2-23e8-4733-a2f5-6706d8fb5c37")
+	)
+	(fp_line
+		(start -4.21 7.9)
+		(end -4.21 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ec02108-267a-499a-a94e-0a95ea4cfb1a")
+	)
+	(fp_line
+		(start 9.29 -3.1)
+		(end 9.29 7.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27ba6761-a888-4fbf-90ac-403ae4c85c05")
+	)
+	(fp_line
+		(start 9.29 7.9)
+		(end -4.21 7.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e2aaade-312a-422a-9f72-9b7402489767")
+	)
+	(fp_line
+		(start -3.21 -2.1)
+		(end 8.29 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2b15c04-32bd-4928-a334-9f1c6735fe57")
+	)
+	(fp_line
+		(start -3.21 6.9)
+		(end -3.21 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a6f3fa4-92cd-44f5-a47a-f42415736624")
+	)
+	(fp_line
+		(start 8.29 -2.1)
+		(end 8.29 6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0ce2634-80eb-4a9d-b1dd-3594469ca941")
+	)
+	(fp_line
+		(start 8.29 6.9)
+		(end -3.21 6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c285b7d2-dbdd-43b8-ad4d-f08ccd664c79")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 2.4 0)
+		(layer "F.Fab")
+		(uuid "e2589a0e-6513-4d28-888b-b08a395fda2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be213c68-90d8-4a24-9198-51bca556be7b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3418d9ec-a0b8-4895-8c35-1bf166ee7af5")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86b521f3-96ca-4c79-8337-3b5a1560821a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/N7803-2C.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1970,12 +1970,6 @@
 		(uuid "01c8efb3-d64e-47d2-aeae-47d77a04230e")
 	)
 	(junction
-		(at 81.28 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02af06e0-4de7-44a8-b661-a9bd7a923f7e")
-	)
-	(junction
 		(at 133.985 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2090,22 +2084,10 @@
 		(uuid "3857c919-510e-474b-aa43-a56cfe428293")
 	)
 	(junction
-		(at 88.265 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4045fa4a-82c6-470e-9825-5a5a66046c5b")
-	)
-	(junction
 		(at 35.56 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45afa938-2c7b-44d4-b54a-e0652cd982b4")
-	)
-	(junction
-		(at 81.28 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49de7508-485a-4a37-a6f0-c61ad2b6e709")
 	)
 	(junction
 		(at 35.56 60.325)
@@ -2228,6 +2210,12 @@
 		(uuid "88c1c1c4-f262-4054-8819-814b38d03081")
 	)
 	(junction
+		(at 78.105 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b66eab5-3c7c-4b3e-8cd8-e9cbf9ae8553")
+	)
+	(junction
 		(at 196.85 120.015)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2318,12 +2306,6 @@
 		(uuid "db1adcc0-6206-4d67-b8ec-6bd526cdc5ae")
 	)
 	(junction
-		(at 84.455 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9ac465f-d372-4179-844c-05116fd5bafb")
-	)
-	(junction
 		(at 196.85 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2358,12 +2340,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee2975f4-1632-4499-b24a-286cfbb5c756")
-	)
-	(junction
-		(at 88.265 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef80a6e8-6200-493f-8b1b-95c9482a7195")
 	)
 	(junction
 		(at 200.025 15.24)
@@ -2606,16 +2582,6 @@
 			(type default)
 		)
 		(uuid "127e4e7b-aa7c-4a0a-ba4a-4062e26abaa6")
-	)
-	(wire
-		(pts
-			(xy 88.265 184.15) (xy 94.615 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1287a086-a852-4920-a327-c1ec8eae992b")
 	)
 	(wire
 		(pts
@@ -3089,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 184.15) (xy 81.28 184.15)
+			(xy 74.295 184.15) (xy 78.105 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3469,26 +3435,6 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 184.15) (xy 88.265 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57859c75-9d3b-4553-baa8-e8699b18aea0")
-	)
-	(wire
-		(pts
-			(xy 94.615 182.88) (xy 94.615 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57fc8b44-df3f-4a21-bf95-154e6c2dc426")
-	)
-	(wire
-		(pts
 			(xy 177.8 45.085) (xy 179.705 45.085)
 		)
 		(stroke
@@ -3619,16 +3565,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 173.99) (xy 88.265 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65cb9052-3ac8-4779-8984-da946051e16e")
-	)
-	(wire
-		(pts
 			(xy 187.325 45.085) (xy 189.865 45.085)
 		)
 		(stroke
@@ -3676,16 +3612,6 @@
 			(type default)
 		)
 		(uuid "6916ca03-5316-4cbd-80e7-64d2dd737b1a")
-	)
-	(wire
-		(pts
-			(xy 94.615 173.99) (xy 94.615 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6925a12b-c527-455b-8f1b-05afeedc92bb")
 	)
 	(wire
 		(pts
@@ -4429,7 +4355,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 184.15) (xy 84.455 184.15)
+			(xy 78.105 184.15) (xy 81.28 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4699,7 +4625,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 184.15) (xy 84.455 185.42)
+			(xy 78.105 184.15) (xy 78.105 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4746,16 +4672,6 @@
 			(type default)
 		)
 		(uuid "c1d13311-e4e9-4ac5-b3c3-0e66d4632213")
-	)
-	(wire
-		(pts
-			(xy 88.265 182.88) (xy 88.265 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c556ae59-b0bf-48ef-9d4f-9434530f4305")
 	)
 	(wire
 		(pts
@@ -5269,16 +5185,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.265 173.99) (xy 94.615 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30ce3d5-fa25-4fdf-acb1-62a4e93b93d3")
-	)
-	(wire
-		(pts
 			(xy 111.76 120.015) (xy 96.52 120.015)
 		)
 		(stroke
@@ -5306,16 +5212,6 @@
 			(type default)
 		)
 		(uuid "f84c376f-b842-4b77-9fe6-3f527e68fa27")
-	)
-	(wire
-		(pts
-			(xy 88.265 173.99) (xy 88.265 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9370b17-009e-4757-a479-4afc837c2751")
 	)
 	(wire
 		(pts
@@ -17720,7 +17616,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5"
+		(property "Value" "264m"
 			(at 83.82 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17741,7 +17637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 81.28 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17752,8 +17648,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Current Sense Resistors - SMD 0805 270mOhms 5% Curr Sens AEC-Q200"
 			(at 81.28 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 81.28 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 81.28 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-6DQJR27V"
+			(at 81.28 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-6DQJR27V"
+			(at 81.28 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20744,7 +20684,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 84.455 185.42 0)
+		(at 78.105 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20755,7 +20695,7 @@
 		(fields_autoplaced yes)
 		(uuid "d921b22e-4db7-4df0-8983-d778c68732de")
 		(property "Reference" "#PWR089"
-			(at 84.455 191.77 0)
+			(at 78.105 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20766,7 +20706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.455 190.5 0)
+			(at 78.105 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20776,7 +20716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.455 185.42 0)
+			(at 78.105 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20787,7 +20727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.455 185.42 0)
+			(at 78.105 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20798,7 +20738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 84.455 185.42 0)
+			(at 78.105 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21070,7 +21010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8231a.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8231.pdf?ts=1793635867059&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
 			(at 62.23 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -21628,85 +21568,6 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.265 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e27091fd-8e74-4d04-bdf1-8ec4a92e9783")
-		(property "Reference" "R_{vref}3"
-			(at 85.725 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.5"
-			(at 90.805 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 86.487 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.265 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.265 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e58c7f7-b083-4278-a2fc-0d9422a92887")
-		)
-		(pin "2"
-			(uuid "e830312a-adc7-4dff-b6ab-7e80cf725730")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "R_{vref}3")
 					(unit 1)
 				)
 			)
@@ -22643,85 +22504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 94.615 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f5dc0d0e-7a86-4fbe-a9a0-92272ad61ab7")
-		(property "Reference" "R_{vref}4"
-			(at 92.075 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.5"
-			(at 97.155 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 92.837 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 94.615 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 94.615 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd2224fe-10cc-4ca1-a658-600df08491d7")
-		)
-		(pin "2"
-			(uuid "5c978104-9699-44b7-bd36-121e2cbb1eb2")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "R_{vref}4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 243.205 90.805 0)
 		(unit 1)
@@ -23197,7 +22979,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5"
+		(property "Value" "264m"
 			(at 76.835 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23218,7 +23000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 74.295 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -23229,8 +23011,52 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Current Sense Resistors - SMD 0805 270mOhms 5% Curr Sens AEC-Q200"
 			(at 74.295 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 74.295 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 74.295 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-6DQJR27V"
+			(at 74.295 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "667-ERJ-6DQJR27V"
+			(at 74.295 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

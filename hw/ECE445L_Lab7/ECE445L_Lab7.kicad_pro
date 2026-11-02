@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -78,32 +78,8 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|107316818|191897000|32c847c4-dbde-41f2-a934-684d1cddf13f|ae1ff0f4-299c-4660-9497-2eedf2167a6b",
-          "hanging off screen"
-        ],
-        [
-          "silk_edge_clearance|114210001|27813000|32c847c4-dbde-41f2-a934-684d1cddf13f|443a2bab-a004-489f-8e80-8eed1152f8ec",
-          "hanging off screen"
-        ],
-        [
-          "silk_edge_clearance|68490000|27813000|32c847c4-dbde-41f2-a934-684d1cddf13f|8accd885-ac74-40ef-a5d3-c19276bca181",
-          ""
-        ],
-        [
-          "silk_edge_clearance|74326981|191897000|32c847c4-dbde-41f2-a934-684d1cddf13f|fa35f655-b69e-4de6-9dbd-b68acf2383ec",
-          "hanging off screen"
-        ],
-        [
-          "silk_edge_clearance|76110000|27813000|32c847c4-dbde-41f2-a934-684d1cddf13f|2ba53e84-dc82-49b9-b2d6-2ba15b8b6973",
-          "hanging off screen"
-        ],
-        [
           "silk_overlap|73676900|182652267|931f27ad-5c96-403f-9cd5-360bb4ce6799|a4ff7e64-51df-448b-b398-4876602ca641",
           "screen goes over"
-        ],
-        [
-          "silk_overlap|73687000|178681748|7f72076d-945f-4567-9743-be0e42593d8b|931f27ad-5c96-403f-9cd5-360bb4ce6799",
-          "no big deal when soldering"
         ],
         [
           "silk_overlap|75702000|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|06e5d06c-48fe-4992-802b-e023572847c5",
@@ -111,10 +87,6 @@
         ],
         [
           "silk_overlap|85922000|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|fd516bd5-9f49-485c-997d-b93524ebb513",
-          "screen goes over"
-        ],
-        [
-          "silk_overlap|92071961|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|f37d48b0-cb59-4a1b-99dd-0b3a9a1b3400",
           "screen goes over"
         ],
         [
@@ -726,7 +698,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -825,7 +797,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -884,7 +856,7 @@
         "uuid": "69b823fd-c065-40ff-9bb9-c5835555f3eb"
       }
     ],
-    "used_designators": "+3.3V1,#PWR3-6,#PWR10-61,#PWR89,C3-14,U1-6,Y1-2,GND1,+5V1,SW6,R1-3,R7,C_{b}2-7,C_{b}14,C_{b}18-19,J1-2,J4-6,M1-7,Q1-9,C_{b\\,1}1,R_{PU}3,C_{b\\,2}1,J_{LED\\,G1}1,J_{flash\\,1}1,R_{vref}2-4,L1-2,D2,LS2,F1-2,TP1,TP_{12V}1,J_{LED\\,G2}1",
+    "used_designators": "+3.3V1,#PWR3-6,#PWR10-61,#PWR89,#PWR99-102,C3-14,U1,U3-6,Y1-2,GND1,+5V1,SW6,R1-3,R7,C_{b}2-7,C_{b}14,J1-2,J4-6,M1-7,SW_{bypass}13,Q1-9,C_{b\\,1}1,R_{PU}6-8,R_{pu}4,C_{b\\,2}1,J_{LED\\,G1}1,J_{flash\\,1}1,R_{vref}2-4,L1-2,D2,LS2,F1,TP1,TP_{12V}1,J_{LED\\,G2}1,SW_{reset}2,J_{USB\\-C}2",
     "variants": []
   },
   "sheets": [
