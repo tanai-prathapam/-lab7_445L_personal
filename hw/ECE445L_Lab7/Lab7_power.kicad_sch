@@ -1720,26 +1720,6 @@
 		)
 		(uuid "9881d305-c8be-4404-9c2f-b3e23cdc28ab")
 	)
-	(text_box "Add more bulk capacitance, ask harish about needed amount"
-		(exclude_from_sim no)
-		(at 156.845 125.095 0)
-		(size 24.13 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a8af9f28-2be3-4930-a4c7-e8b007abf899")
-	)
 	(junction
 		(at 132.715 106.045)
 		(diameter 0)
