@@ -870,7 +870,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECE445L:Header_4"
+		(symbol "ECE445L:Header_5"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -890,8 +890,8 @@
 					)
 				)
 			)
-			(property "Value" "Header_4"
-				(at 0 -8.89 0)
+			(property "Value" "Header_5"
+				(at 8.89 -9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -900,7 +900,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ECE445L:PinHeader_1x04_P2.54mm_Vertical"
+			(property "Footprint" "ECE445L:PinHeader_1x05_P2.54mm_Vertical"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -922,7 +922,7 @@
 					)
 				)
 			)
-			(property "Description" "Header, 4-pin"
+			(property "Description" "Header, 5-pin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -955,7 +955,7 @@
 					)
 				)
 			)
-			(symbol "Header_4_0_0"
+			(symbol "Header_5_0_0"
 				(circle
 					(center 1.905 2.54)
 					(radius 0.508)
@@ -968,7 +968,7 @@
 					)
 				)
 			)
-			(symbol "Header_4_1_0"
+			(symbol "Header_5_1_0"
 				(circle
 					(center 1.905 -2.54)
 					(radius 0.508)
@@ -992,6 +992,17 @@
 					)
 				)
 				(circle
+					(center 1.905 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center 2.032 0)
 					(radius 0.508)
 					(stroke
@@ -1003,7 +1014,7 @@
 					)
 				)
 			)
-			(symbol "Header_4_1_1"
+			(symbol "Header_5_1_1"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
@@ -1069,6 +1080,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2677,7 +2706,17 @@
 	)
 	(wire
 		(pts
-			(xy 268.605 81.28) (xy 272.415 81.28)
+			(xy 142.24 68.58) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7754e75a-8c05-47e5-860b-29ae4e291d35")
+	)
+	(wire
+		(pts
+			(xy 268.605 81.28) (xy 274.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2747,6 +2786,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 76.2) (xy 273.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b22b959-c057-4859-9f94-28114bee84fc")
+	)
+	(wire
+		(pts
 			(xy 101.6 148.59) (xy 104.14 148.59)
 		)
 		(stroke
@@ -2797,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.415 78.74) (xy 270.51 78.74)
+			(xy 270.51 78.74) (xy 274.32 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2847,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.745 86.36) (xy 272.415 86.36)
+			(xy 245.745 86.36) (xy 274.32 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2914,6 +2963,16 @@
 			(type default)
 		)
 		(uuid "c18a7960-a26b-4ba8-89f5-4a44927d5ea4")
+	)
+	(wire
+		(pts
+			(xy 273.05 66.04) (xy 273.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c38951-c5be-4cb7-93d4-436669e3ed00")
 	)
 	(wire
 		(pts
@@ -2997,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.745 83.82) (xy 272.415 83.82)
+			(xy 245.745 83.82) (xy 274.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3106,6 +3165,16 @@
 		(uuid "fde3eaf6-7b09-41b0-9bc0-e064bdc6cc9a")
 	)
 	(label "uC_{1} - RST"
+		(at 142.24 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39e648e2-d0e1-47c9-abde-4bf20b69e1c5")
+	)
+	(label "uC_{1} - RST"
 		(at 52.705 85.09 180)
 		(effects
 			(font
@@ -3174,6 +3243,16 @@
 			(justify left bottom)
 		)
 		(uuid "9d7c0d84-e494-410e-bdc3-db6693a839e6")
+	)
+	(label "uC_{2} - RST"
+		(at 273.05 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3dacd14-5ab7-433e-8c94-d45ef072079f")
 	)
 	(label "uC_{1} - SWDIO"
 		(at 142.24 86.36 180)
@@ -4668,6 +4747,96 @@
 		)
 	)
 	(symbol
+		(lib_id "ECE445L:Header_5")
+		(at 279.4 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "106215c6-78c1-42be-acdb-105602c2ecb6")
+		(property "Reference" "J2"
+			(at 280.924 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "J_{flash}2"
+			(at 272.542 88.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ECE445L:PinHeader_1x05_P2.54mm_Vertical"
+			(at 279.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Header, 5-pin"
+			(at 279.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df64eb40-7f20-4cce-9154-164e20bb2848")
+		)
+		(pin "2"
+			(uuid "4c525148-6e74-4874-a5b7-f8841c8b5434")
+		)
+		(pin "4"
+			(uuid "eba0f963-fea9-4bd1-a5d7-b75899c252ab")
+		)
+		(pin "5"
+			(uuid "1c78d42c-b3f5-4406-8d6c-64c8afe56558")
+		)
+		(pin "3"
+			(uuid "744c128f-0002-4cbf-9406-c57f29f4dba6")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.115 145.415 0)
 		(unit 1)
@@ -4931,7 +5100,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 273.812 74.93 0)
+			(at 267.97 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5213,94 +5382,6 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE445L:Header_4")
-		(at 147.32 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ea223cb-5185-400b-b365-e9cd8e53070d")
-		(property "Reference" "J_{flash}1"
-			(at 139.7 88.265 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Debugger"
-			(at 151.13 81.2799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ECE445L:PinHeader_1x04_P2.54mm_Vertical"
-			(at 147.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Header, 4-pin"
-			(at 147.32 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3fa55513-9a03-4375-a2f3-f6fd9cae7ef1")
-		)
-		(pin "1"
-			(uuid "1d0fc907-40aa-4604-ae67-5030f0f184f9")
-		)
-		(pin "3"
-			(uuid "cd468229-64b2-4db0-83f5-dd9b215fe17a")
-		)
-		(pin "4"
-			(uuid "c1de5163-b2f8-4e0d-bd83-318bda5f74ec")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
-					(reference "J_{flash}1")
 					(unit 1)
 				)
 			)
@@ -6385,94 +6466,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE445L:Header_4")
-		(at 277.495 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6043ba35-9f97-48ee-9c44-cbd4be96498b")
-		(property "Reference" "J_{flash}2"
-			(at 269.875 88.265 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Debugger"
-			(at 281.305 81.2799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ECE445L:PinHeader_1x04_P2.54mm_Vertical"
-			(at 277.495 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 277.495 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Header, 4-pin"
-			(at 277.495 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "10de080f-3892-4ffa-8538-59ae4a8eae09")
-		)
-		(pin "1"
-			(uuid "fbeb666a-453b-415d-b3dd-4e09862cbcfc")
-		)
-		(pin "3"
-			(uuid "a2beb8e6-83d5-4929-a2b4-33587c2f3c5b")
-		)
-		(pin "4"
-			(uuid "89ea6652-f1f4-43f6-a6ec-47d6006116f4")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
-					(reference "J_{flash}2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ECE445L:C")
 		(at 163.83 85.09 0)
 		(unit 1)
@@ -6981,7 +6974,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.637 74.93 0)
+			(at 136.652 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8050,6 +8043,96 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
 					(reference "R_{PU}4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:Header_5")
+		(at 147.32 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba7500cf-887d-4984-9cd7-a91fcc73f7b0")
+		(property "Reference" "J1"
+			(at 147.828 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "J_{flash}1"
+			(at 140.462 88.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ECE445L:PinHeader_1x05_P2.54mm_Vertical"
+			(at 147.32 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Header, 5-pin"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d11e8ff6-adca-43a7-96ea-97cae68f85be")
+		)
+		(pin "2"
+			(uuid "a65a5b30-84aa-4616-a188-67838cb806e3")
+		)
+		(pin "4"
+			(uuid "05c191ad-6339-4a72-9a60-bb61b5602cf5")
+		)
+		(pin "5"
+			(uuid "6bddebf4-7322-413d-a3bf-362facadb8e5")
+		)
+		(pin "3"
+			(uuid "2844d29d-09ae-4d16-91ef-2ad1ee0618fe")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
+					(reference "J1")
 					(unit 1)
 				)
 			)

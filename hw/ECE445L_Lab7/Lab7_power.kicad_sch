@@ -1751,12 +1751,6 @@
 		(uuid "4ed399a3-d465-4d7c-a34b-f1ff5403c279")
 	)
 	(junction
-		(at 97.79 106.045)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58371e08-03fc-4464-8e09-8d533c3d946e")
-	)
-	(junction
 		(at 116.84 95.885)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1852,16 +1846,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 95.885) (xy 83.185 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e75f57-4724-4cd2-b916-3b3fee017593")
-	)
-	(wire
-		(pts
 			(xy 144.145 95.885) (xy 148.59 95.885)
 		)
 		(stroke
@@ -1932,16 +1916,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.185 106.045) (xy 97.79 106.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c30084a-a1a6-47b6-aedc-02980a86fd28")
-	)
-	(wire
-		(pts
 			(xy 103.505 139.065) (xy 103.505 137.16)
 		)
 		(stroke
@@ -1979,16 +1953,6 @@
 			(type default)
 		)
 		(uuid "a97996c1-6e47-4d63-b940-a1ee0c3cb92e")
-	)
-	(wire
-		(pts
-			(xy 83.185 98.425) (xy 83.185 106.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf511386-884c-456e-907e-ecf12757e91c")
 	)
 	(wire
 		(pts
@@ -2109,16 +2073,6 @@
 			(justify left bottom)
 		)
 		(uuid "ce19bdbe-d07b-4256-9d0c-d9b9f7a8c6e2")
-	)
-	(label "V_{in}"
-		(at 86.36 95.885 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3b1601e-45e7-4b58-9b39-a78069ded4af")
 	)
 	(global_label "+12V"
 		(shape input)
@@ -2944,86 +2898,6 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
 					(reference "J_{USB-C}1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 78.105 98.425 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2015b0c-1ad4-4d72-8e6a-84dc41fb2d7d")
-		(property "Reference" "J_{USB-C}2"
-			(at 78.105 89.535 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 78.105 92.075 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 78.105 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.105 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 78.105 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49a8cf88-1a19-4544-887b-8d81d26c9d6c")
-		)
-		(pin "1"
-			(uuid "60dc6dd1-5a06-4024-891f-2022c5acb657")
-		)
-		(instances
-			(project "ECE445L_Lab7"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
-					(reference "J_{USB-C}2")
 					(unit 1)
 				)
 			)
