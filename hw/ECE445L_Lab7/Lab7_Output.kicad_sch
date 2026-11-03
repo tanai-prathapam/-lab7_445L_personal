@@ -1897,7 +1897,7 @@
 	)
 	(rectangle
 		(start 227.965 13.335)
-		(end 283.21 133.35)
+		(end 283.21 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -1954,7 +1954,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 281.305 132.08 0)
+		(at 281.305 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3405,6 +3405,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.905 138.43) (xy 255.905 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533bdd63-234d-48fa-a92f-8ed1f6ef1ea9")
+	)
+	(wire
+		(pts
 			(xy 243.205 75.565) (xy 241.3 75.565)
 		)
 		(stroke
@@ -4015,6 +4025,16 @@
 	)
 	(wire
 		(pts
+			(xy 268.605 138.43) (xy 268.605 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a22cfd9-7c95-460b-adff-757805472d53")
+	)
+	(wire
+		(pts
 			(xy 135.255 180.975) (xy 137.16 180.975)
 		)
 		(stroke
@@ -4072,6 +4092,16 @@
 			(type default)
 		)
 		(uuid "90bf132c-fa9c-4371-9d65-a6077a1dcb4b")
+	)
+	(wire
+		(pts
+			(xy 243.84 138.43) (xy 243.84 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9104a822-261b-4b7e-8aed-98fb24412618")
 	)
 	(wire
 		(pts
@@ -4752,6 +4782,16 @@
 			(type default)
 		)
 		(uuid "c7a30844-689e-4749-bae4-a316bdb90121")
+	)
+	(wire
+		(pts
+			(xy 231.775 138.43) (xy 231.775 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84bf229-9b12-449b-b66b-681e41fc23af")
 	)
 	(wire
 		(pts
@@ -6334,7 +6374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 114.3 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6345,7 +6385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 111.76 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -6356,7 +6396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 111.76 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -6411,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 111.76 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6462,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 111.76 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -6433,7 +6473,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 111.76 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -7688,6 +7728,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f47a685-33e4-43b1-893c-0cf77e6b158e")
+		(property "Reference" "TP_{GND}7"
+			(at 245.745 133.8579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 245.745 136.3979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "189d91f1-c002-4161-accd-91df393f370f")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "TP_{GND}7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 111.76 20.32 270)
 		(unit 1)
@@ -7710,7 +7829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 113.665 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,7 +7840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 111.76 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -7732,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 111.76 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -7787,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 111.76 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -7798,7 +7917,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 111.76 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -7809,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 111.76 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -8250,7 +8369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1855e9ee-f983-4b4a-b7e7-6677baa1d408")
-		(property "Reference" "M_{feeder}1"
+		(property "Reference" "M_{latch}1"
 			(at 152.4 158.1149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +8391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
 			(at 147.955 159.131 0)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +8455,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
-					(reference "M_{feeder}1")
+					(reference "M_{latch}1")
 					(unit 1)
 				)
 			)
@@ -9167,6 +9286,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 243.84 140.335 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "227fdf33-3ef3-4bd0-a216-7b79e22b2a8f")
+		(property "Reference" "#PWR0112"
+			(at 243.84 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0729121e-c748-43fb-8dde-bf99b57d7693")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 184.785 116.205 0)
 		(unit 1)
 		(body_style 1)
@@ -9277,7 +9474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 196.85 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -9496,7 +9693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 214.63 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9507,7 +9704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 212.09 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -9518,7 +9715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 212.09 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -9573,7 +9770,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 212.09 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -9584,7 +9781,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 212.09 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -9595,7 +9792,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 212.09 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -9857,7 +10054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 47.625 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 64.77 20.9549 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 62.865 19.685 90)
 			(hide yes)
 			(show_name no)
@@ -10265,7 +10462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 62.865 19.685 90)
 			(hide yes)
 			(show_name no)
@@ -10320,7 +10517,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 62.865 19.685 90)
 			(hide yes)
 			(show_name no)
@@ -10331,7 +10528,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 62.865 19.685 90)
 			(hide yes)
 			(show_name no)
@@ -10342,7 +10539,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 62.865 19.685 90)
 			(hide yes)
 			(show_name no)
@@ -10991,7 +11188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 96.52 23.241 0)
 			(hide yes)
 			(show_name no)
@@ -11300,7 +11497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 145.415 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -11699,7 +11896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 47.625 23.241 0)
 			(hide yes)
 			(show_name no)
@@ -11948,7 +12145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 114.3 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +12156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 111.76 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -11970,7 +12167,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 111.76 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12025,7 +12222,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 111.76 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12036,7 +12233,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 111.76 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12047,7 +12244,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 111.76 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12652,7 +12849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 145.415 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -12835,7 +13032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 196.85 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -13198,7 +13395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 47.625 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -14678,7 +14875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 165.735 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14689,7 +14886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 163.83 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -14700,7 +14897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 163.83 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -14755,7 +14952,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 163.83 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -14766,7 +14963,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 163.83 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -14777,7 +14974,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 163.83 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -15156,7 +15353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 217.17 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15167,7 +15364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 215.265 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -15178,7 +15375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 215.265 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -15233,7 +15430,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 215.265 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -15244,7 +15441,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 215.265 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -15255,7 +15452,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 215.265 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -15304,7 +15501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 164.465 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15315,7 +15512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 161.925 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15326,7 +15523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 161.925 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15381,7 +15578,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 161.925 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15392,7 +15589,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 161.925 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15403,7 +15600,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 161.925 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15884,7 +16081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 96.52 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -16184,6 +16381,84 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "Motor_In8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.905 140.335 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8566eac3-bb7f-4238-900e-c638cf61be37")
+		(property "Reference" "#PWR0113"
+			(at 255.905 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.905 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.905 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.905 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.905 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f92ecb6c-1f7e-4797-b2b4-47d844dc4499")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -17258,6 +17533,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 231.775 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc45072-a4e7-4a1e-bd3c-b1c3550d5109")
+		(property "Reference" "TP_{GND}6"
+			(at 233.68 133.8579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 233.68 136.3979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 236.855 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.855 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 231.775 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "536a51de-dbb8-4509-8946-b2a334f96073")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "TP_{GND}6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 267.97 117.475 0)
 		(unit 1)
 		(body_style 1)
@@ -17596,6 +17950,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.905 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0400b8-9ced-4bb9-8af0-16703c0fcf02")
+		(property "Reference" "TP_{GND}8"
+			(at 257.81 133.8579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 257.81 136.3979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 260.985 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.985 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.905 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4734ba1e-4650-4c45-93da-1eaf48ba141d")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "TP_{GND}8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 179.07 0)
 		(unit 1)
@@ -17791,6 +18224,84 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 268.605 140.335 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b15cfa07-b397-4c89-b3a7-15d9ecd71610")
+		(property "Reference" "#PWR0114"
+			(at 268.605 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 268.605 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 268.605 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 268.605 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 268.605 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "355b4450-d9af-4511-913d-c180753889ff")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -18269,7 +18780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 148.59 23.241 0)
 			(hide yes)
 			(show_name no)
@@ -18362,7 +18873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 162.56 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18373,7 +18884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 160.655 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18384,7 +18895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 160.655 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18439,7 +18950,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 160.655 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18450,7 +18961,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 160.655 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18461,7 +18972,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 160.655 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -18510,7 +19021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 214.63 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18521,7 +19032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 212.09 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -18532,7 +19043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 212.09 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -18587,7 +19098,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 212.09 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -18598,7 +19109,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 212.09 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -18609,7 +19120,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 212.09 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -19029,7 +19540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 64.77 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19040,7 +19551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 62.865 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -19051,7 +19562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 62.865 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -19106,7 +19617,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 62.865 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -19117,7 +19628,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 62.865 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -19128,7 +19639,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 62.865 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -19177,7 +19688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 162.56 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19188,7 +19699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 160.655 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -19199,7 +19710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 160.655 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -19254,7 +19765,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 160.655 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -19265,7 +19776,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 160.655 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -19276,7 +19787,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 160.655 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -19336,7 +19847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 200.025 23.241 0)
 			(hide yes)
 			(show_name no)
@@ -19643,6 +20154,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 268.605 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce6d2b32-2d30-4d51-86b0-c1aa6eb057dd")
+		(property "Reference" "TP_{GND}9"
+			(at 270.51 133.8579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 136.3979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 273.685 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.685 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 268.605 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f29710c-dca9-4bba-afe0-9b444f50b5fc")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "TP_{GND}9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECE445L:NTR4501NT1G")
 		(at 40.005 135.255 0)
 		(unit 1)
@@ -19845,7 +20435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 104.775 166.751 0)
 			(hide yes)
 			(show_name no)
@@ -21291,7 +21881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD5Z12"
+		(property "Value" "DFLS240LX-7"
 			(at 64.77 111.1249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21302,7 +21892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 62.865 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -21313,7 +21903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/esd5z2v5.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 62.865 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -21368,7 +21958,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diotec Semiconductor "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 62.865 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -21379,7 +21969,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESD5Z12 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 62.865 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -21390,7 +21980,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "637-ESD5Z12 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 62.865 109.855 90)
 			(hide yes)
 			(show_name no)
@@ -21607,7 +22197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 96.52 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -23775,6 +24365,84 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
 					(reference "Solenoid_V_{d}1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.775 140.335 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fea3f876-6925-4ea0-a9f8-b9cfa6722a4b")
+		(property "Reference" "#PWR0111"
+			(at 231.775 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.775 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.775 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.775 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.775 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab27e2ed-9e36-4e6b-a424-1359675a2972")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/a500a078-11dc-409b-bff9-a8c35e1dabf8"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

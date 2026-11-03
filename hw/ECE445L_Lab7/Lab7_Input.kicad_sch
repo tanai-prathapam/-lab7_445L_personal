@@ -4913,6 +4913,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 99.695) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801ce7ec-f4e5-42d7-9e2c-d56bca41c2b1")
+	)
+	(wire
+		(pts
 			(xy 83.185 30.48) (xy 88.265 30.48)
 		)
 		(stroke
@@ -5240,6 +5250,16 @@
 			(type default)
 		)
 		(uuid "cc29e1b9-ec13-4374-aafc-6de622ed9502")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.695) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29af9d7-b234-488a-bc69-a0251f6aaf73")
 	)
 	(wire
 		(pts
@@ -7504,6 +7524,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 99.695 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1672be94-e59c-4344-8a79-f893d087f0d0")
+		(property "Reference" "TP_{GND}1"
+			(at 150.495 95.1229 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 150.495 97.6629 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 153.67 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "407a4028-9db2-43c2-9ec8-88b3eaa63cda")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
+					(reference "TP_{GND}1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 47.625 119.38 0)
 		(unit 1)
@@ -8156,7 +8255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PE1403M1Q"
+		(property "Value" "DFLS240LX-7"
 			(at 170.18 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882D"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 167.64 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -8178,7 +8277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/3736/1/70DF2AA330BF2D29377481CD66AEFD4146E20D02EF29A331550E35DCFDBB0BAF.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 167.64 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -8222,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panjit "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 167.64 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -8266,7 +8365,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PE1403M1Q_R1_00501 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 167.64 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -8277,7 +8376,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "241-PE1403M1QR100501 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 167.64 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -9502,6 +9601,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6efc0972-7d0c-42cd-a597-f8738d022434")
+		(property "Reference" "#PWR0103"
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9214ea01-27c4-4e0d-9792-f7cc6dcb7b9d")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 245.11 48.895 0)
 		(unit 1)
 		(body_style 1)
@@ -9728,6 +9905,85 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 99.695 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80c2d52c-51a9-43d7-a755-602d5a243519")
+		(property "Reference" "TP_{GND}2"
+			(at 164.465 95.1229 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 164.465 97.6629 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 167.64 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70f6c268-ed2d-4495-9246-8edbc5af8cc8")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
+					(reference "TP_{GND}2")
 					(unit 1)
 				)
 			)
@@ -11049,7 +11305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PE1403M1Q"
+		(property "Value" "DFLS240LX-7"
 			(at 126.365 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11060,7 +11316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-882D"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 123.825 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -11071,7 +11327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/3736/1/70DF2AA330BF2D29377481CD66AEFD4146E20D02EF29A331550E35DCFDBB0BAF.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/175/1/DFLS240LX.pdf"
 			(at 123.825 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -11115,7 +11371,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panjit "
+		(property "Manufacturer" "Diodes Incorporated "
 			(at 123.825 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -11159,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PE1403M1Q_R1_00501 "
+		(property "Manufacturer_Part_Number" "DFLS240LX-7 "
 			(at 123.825 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -11170,7 +11426,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "241-PE1403M1QR100501 "
+		(property "Mouser Part Number" "621-DFLS240LX-7 "
 			(at 123.825 31.115 90)
 			(hide yes)
 			(show_name no)
@@ -11894,6 +12150,84 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0b82abe-d1a7-4d0a-89c4-d327e45dc2a7")
+		(property "Reference" "#PWR0104"
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c3c96aa-7023-4a8d-a2f3-88da69bddf5e")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/e9432827-5ece-4de0-90fe-13c05c5c04a5"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)

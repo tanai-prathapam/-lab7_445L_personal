@@ -3126,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 145.415) (xy 117.475 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6892302-52eb-46e5-811b-6a36fd9f1e8f")
+	)
+	(wire
+		(pts
 			(xy 169.545 81.28) (xy 174.625 81.28)
 		)
 		(stroke
@@ -4757,8 +4767,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106215c6-78c1-42be-acdb-105602c2ecb6")
-		(property "Reference" "J2"
-			(at 280.924 74.422 0)
+		(property "Reference" "J_{flash}2"
+			(at 272.415 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4770,6 +4780,7 @@
 		)
 		(property "Value" "J_{flash}2"
 			(at 272.542 88.138 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4830,7 +4841,7 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
-					(reference "J2")
+					(reference "J_{flash}2")
 					(unit 1)
 				)
 			)
@@ -4909,6 +4920,85 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 117.475 145.415 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23fef971-8887-4bb5-b814-37e720816695")
+		(property "Reference" "TP_{GND}5"
+			(at 119.38 140.8429 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 119.38 143.3829 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 122.555 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.555 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 117.475 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93b29899-fb4f-46a6-a9b4-db977a1e478c")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
+					(reference "TP_{GND}5")
 					(unit 1)
 				)
 			)
@@ -8059,8 +8149,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba7500cf-887d-4984-9cd7-a91fcc73f7b0")
-		(property "Reference" "J1"
-			(at 147.828 77.216 0)
+		(property "Reference" "J_{flash}1"
+			(at 139.7 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8072,6 +8162,7 @@
 		)
 		(property "Value" "J_{flash}1"
 			(at 140.462 88.138 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8132,7 +8223,85 @@
 		(instances
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
-					(reference "J1")
+					(reference "J_{flash}1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 117.475 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc302462-cc3f-4d28-97c7-fb3024e94084")
+		(property "Reference" "#PWR0110"
+			(at 117.475 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.475 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 117.475 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fd11d1c-cd69-4e73-9af5-cff455f57938")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/c4445928-c95f-4ef5-82c7-58ae1ba9c5bb"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)

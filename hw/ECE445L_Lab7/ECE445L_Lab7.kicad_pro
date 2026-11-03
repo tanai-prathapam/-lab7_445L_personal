@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,7 +76,108 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|107316818|191897000|32c847c4-dbde-41f2-a934-684d1cddf13f|ae1ff0f4-299c-4660-9497-2eedf2167a6b",
+          "screen"
+        ],
+        [
+          "silk_edge_clearance|114210001|27813000|32c847c4-dbde-41f2-a934-684d1cddf13f|443a2bab-a004-489f-8e80-8eed1152f8ec",
+          "screen"
+        ],
+        [
+          "silk_edge_clearance|68490000|27813000|32c847c4-dbde-41f2-a934-684d1cddf13f|8accd885-ac74-40ef-a5d3-c19276bca181",
+          "screen"
+        ],
+        [
+          "silk_edge_clearance|74326981|191897000|32c847c4-dbde-41f2-a934-684d1cddf13f|fa35f655-b69e-4de6-9dbd-b68acf2383ec",
+          "screen"
+        ],
+        [
+          "silk_edge_clearance|76110000|27813000|32c847c4-dbde-41f2-a934-684d1cddf13f|2ba53e84-dc82-49b9-b2d6-2ba15b8b6973",
+          "screen"
+        ],
+        [
+          "silk_over_copper|106061900|167720000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|d799ed3a-2fe6-41c2-978d-7111e4373842",
+          "screen"
+        ],
+        [
+          "silk_over_copper|106061900|173860000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|f8f9030a-8411-4dd5-8155-f11f5d27fab9",
+          "screen"
+        ],
+        [
+          "silk_over_copper|106061900|181229000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|a3fa2973-aa2a-421f-b9c2-6342b4df0d1f",
+          "screen"
+        ],
+        [
+          "silk_over_copper|107966900|181229000|25a0e8de-6d56-444c-803d-99dfcec205fe|a3fa2973-aa2a-421f-b9c2-6342b4df0d1f",
+          "screen"
+        ],
+        [
+          "silk_over_copper|114210001|33147000|443a2bab-a004-489f-8e80-8eed1152f8ec|c7b2bcfd-b55f-4c91-9c02-35f4aa6738bd",
+          "screen"
+        ],
+        [
+          "silk_over_copper|62738000|131300000|6203b54c-c3fc-42ea-bce8-7ba72f1a1aed|edb4477e-5c51-4d9b-8dfc-2ac6500f4ae0",
+          "keypad"
+        ],
+        [
+          "silk_over_copper|73676900|178243000|931f27ad-5c96-403f-9cd5-360bb4ce6799|b205a537-923d-4822-99e7-1eae98dffb86",
+          "screen"
+        ],
+        [
+          "silk_over_copper|73676900|180318000|931f27ad-5c96-403f-9cd5-360bb4ce6799|1cef2b45-498f-4723-a0a5-74c1f70d29e7",
+          "screen"
+        ],
+        [
+          "silk_over_copper|75581900|167800000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|66e5f8f0-ce63-42bd-af60-57ef4bd3c190",
+          "screen"
+        ],
+        [
+          "silk_over_copper|76110000|32985000|2ba53e84-dc82-49b9-b2d6-2ba15b8b6973|ae125a54-d671-4257-b492-3d7eea9e1064",
+          "screen"
+        ],
+        [
+          "silk_over_copper|79281999|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|dafce511-7102-4c73-b9b1-f4a4a771c627",
+          "screen"
+        ],
+        [
+          "silk_over_copper|90600000|120770318|a41b58fc-f578-4efd-a1b4-01724f86504f|c45fb776-f11b-4b20-ad88-a8d95c6dbe3e",
+          "osc footprint"
+        ],
+        [
+          "silk_over_copper|91100000|94298318|9188c73b-a8e5-441e-b159-f8fab00acbe1|610905a1-3be2-43b6-bd1f-bcbb183bbc13",
+          "osc footprint"
+        ],
+        [
+          "silk_overlap|73676900|182652267|931f27ad-5c96-403f-9cd5-360bb4ce6799|a4ff7e64-51df-448b-b398-4876602ca641",
+          "screen"
+        ],
+        [
+          "silk_overlap|73687000|178681748|7f72076d-945f-4567-9743-be0e42593d8b|931f27ad-5c96-403f-9cd5-360bb4ce6799",
+          "screen"
+        ],
+        [
+          "silk_overlap|75702000|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|06e5d06c-48fe-4992-802b-e023572847c5",
+          "screen"
+        ],
+        [
+          "silk_overlap|85922000|185120000|014e4eea-d8f8-420e-bcc6-3a4b5d1e6f8b|fd516bd5-9f49-485c-997d-b93524ebb513",
+          "screen"
+        ],
+        [
+          "silk_overlap|87897618|136860000|0918c652-20a8-435f-958c-f39ceea06f42|31509b75-76c2-44a4-bd9b-196f80c211e0",
+          "screen"
+        ],
+        [
+          "silk_overlap|88183332|136300000|2739f1a6-8a8f-4e03-ae18-00198bf2f626|31509b75-76c2-44a4-bd9b-196f80c211e0",
+          "screen"
+        ],
+        [
+          "via_dangling|84050000|82104593|a918eb26-eef0-4fd8-9626-5078ae53206e|00000000-0000-0000-0000-000000000000",
+          "emi suppression"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -165,7 +266,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -809,7 +910,7 @@
         "uuid": "69b823fd-c065-40ff-9bb9-c5835555f3eb"
       }
     ],
-    "used_designators": "J_{LED\\,G4}1,+3.3V1,#PWR1-8,#PWR10-94,C3-14,C_{core\\,2}1,U1-7,R_{choke}2-6,R_{choke}8-15,Y1-2,SPI_CS1,M_{flywheel\\,1}1,12V1,GND1,C_{filter}1,+5V1,SW1,SW6,R2-3,R7,C_{b}2-15,J1-2,J4-6,M_{feeder}1,M1-12,Motor_In2-16,SW_{bypass}2-6,SW_{bypass}8-15,D_{flyback}2-6,D_{flyback}8-15,Q1-17,uC_{1}←uC_{2}1,C_{b\\,1}1,R_{PU}2,R_{gate}2-6,R_{gate}8-15,C_{b\\,2}1,J_{LED\\,G1}1,J_{flash\\,1}1,L1-2,D1-3,J_{IDReader}1,LS1-2,F1,J_{atomizer}1,TP1-8,RxD_{ID}1,TP_{12V}1,J_{flash\\,2}1,J_{LED\\,G2}1,J_{LED\\,G3}1,Motor_V_{d}2-16,JP1,JP_{Motor}2-4,C_{b\\,3}1,C_{b\\,4}1,TxD_{ID}1,C_{core\\,1}1,C_{pi\\,1}1,C_{pi\\,2}1,Flywheels_In1,J_{Keypad}1,J_{test}1,J_{USB\\-C}1,L_{filter}1,M_{flywheel\\,2}1,R_{filter}1,Solenoid_V_{d}1,SPI_SCK1,U_{Decoder}1,uC_{1}→uC_{2}1",
+    "used_designators": "J_{LED\\,G4}1,+3.3V1,#PWR1-8,#PWR10-94,#PWR103-114,C3-14,C_{core\\,2}1,U1-7,R_{choke}2-6,R_{choke}8-15,Y1-2,SPI_CS1,M_{flywheel\\,1}1,12V1,R_{Choke}13-14,GND1,+5V1,C_{filter}1,SW1,SW6,R2-3,R7,C_{b}2-15,J1-2,J4-6,M_{feeder}1,M1-12,Motor_In2-16,SW_{bypass}2-6,SW_{bypass}8-15,D_{flyback}2-6,D_{flyback}8-15,Q1-17,C_{b\\,1}1,uC_{1}←uC_{2}1,R_{PU}2,R_{PU}9,R_{gate}2-6,R_{gate}8-15,C_{b\\,2}1,J_{flash\\,1}1,J_{LED\\,G1}1,L1-2,D1-3,J_{IDReader}1,LS1-2,F1,J_{atomizer}1,TP1-8,RxD_{ID}1,TP_{12V}1,J_{LED\\,G2}1,J_{flash\\,2}1,J_{LED\\,G3}1,Motor_V_{d}2-16,JP1,TP_{GND}2-9,JP_{Motor}2-4,C_{b\\,3}1,C_{b\\,4}1,C_{core\\,1}1,TxD_{ID}1-2,C_{pi\\,1}1,C_{pi\\,2}1,Flywheels_In1,J_{Keypad}1,J_{test}1,J_{USB\\-C}1,L_{filter}1,M_{flywheel\\,2}1,R_{filter}1,Solenoid_V_{d}1,SPI_SCK1,U_{Decoder}1,uC_{1}→uC_{2}1",
     "variants": []
   },
   "sheets": [

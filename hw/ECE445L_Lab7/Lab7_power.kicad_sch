@@ -1399,6 +1399,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ECE445L:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at -5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ECE445L:LED_D5.0mm"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 1.016 -3.302) (xy 1.016 -2.54) (xy 1.016 -3.302) (xy 0.254 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -3.048) (xy 1.016 -4.572) (xy 1.016 -3.81) (xy 1.016 -4.572) (xy 0.254 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -2.54 1.27) (xy -1.27 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -1.27 -3.81 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 3.81 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ECE445L:R_0.125W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0.125W"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ECE445L:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/CarbonFilmresistors.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0.125W_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1667,7 +1999,19 @@
 		(uuid "4857c69d-6891-4c35-b41c-f952dbc87f5a")
 	)
 	(rectangle
-		(start 71.755 85.725)
+		(start 46.355 85.725)
+		(end 83.82 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7b712fee-d126-4e48-914d-5121396ea6fa")
+	)
+	(rectangle
+		(start 85.725 85.725)
 		(end 154.305 114.3)
 		(stroke
 			(width 0)
@@ -1679,7 +2023,7 @@
 		(uuid "889be189-48b7-476d-8906-c8ef39b0e575")
 	)
 	(rectangle
-		(start 85.725 115.57)
+		(start 67.945 115.57)
 		(end 117.475 150.495)
 		(stroke
 			(width 0)
@@ -1719,6 +2063,17 @@
 			)
 		)
 		(uuid "9881d305-c8be-4404-9c2f-b3e23cdc28ab")
+	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 82.55 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e64e9340-f87e-4761-8bb6-e508a81823ed")
 	)
 	(junction
 		(at 132.715 106.045)
@@ -1786,6 +2141,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.245 90.17) (xy 56.515 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18022c3b-4c00-4dd1-b015-3faecefa7aa2")
+	)
+	(wire
+		(pts
 			(xy 103.505 128.27) (xy 101.6 128.27)
 		)
 		(stroke
@@ -1793,6 +2158,16 @@
 			(type default)
 		)
 		(uuid "1d68da7e-79b7-4369-a5c2-8e642986b8df")
+	)
+	(wire
+		(pts
+			(xy 69.85 105.41) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a7814d-377b-4158-8922-86191d16b692")
 	)
 	(wire
 		(pts
@@ -1846,6 +2221,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.515 105.41) (xy 56.515 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477629fe-6dd5-4592-b476-442fe962f7fc")
+	)
+	(wire
+		(pts
 			(xy 144.145 95.885) (xy 148.59 95.885)
 		)
 		(stroke
@@ -1873,6 +2258,26 @@
 			(type default)
 		)
 		(uuid "6e23f505-5d28-4a30-ab67-8b9aea6c0ee0")
+	)
+	(wire
+		(pts
+			(xy 69.85 99.06) (xy 69.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab0b504-afff-4047-ab5d-f6a206d81c2e")
+	)
+	(wire
+		(pts
+			(xy 56.515 99.06) (xy 56.515 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8313a51f-3f0a-4e52-b617-1457da005d5d")
 	)
 	(wire
 		(pts
@@ -1926,6 +2331,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.515 90.17) (xy 56.515 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbee625-4c67-472b-95d9-1443ea8aa54a")
+	)
+	(wire
+		(pts
 			(xy 144.145 95.885) (xy 144.145 96.52)
 		)
 		(stroke
@@ -1933,6 +2348,26 @@
 			(type default)
 		)
 		(uuid "9fdf08bb-2aff-47d7-9f74-72f81fdc7d51")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.095) (xy 80.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19061bb-243d-434d-a3be-37058d8d2486")
+	)
+	(wire
+		(pts
+			(xy 80.01 140.97) (xy 80.01 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e669e9-9b44-43ac-b812-e47c67b4cc4e")
 	)
 	(wire
 		(pts
@@ -2026,6 +2461,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 90.17) (xy 69.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa703f1a-1f46-4ca0-b907-2e120a13ed9c")
+	)
+	(wire
+		(pts
 			(xy 134.62 124.46) (xy 137.16 124.46)
 		)
 		(stroke
@@ -2076,6 +2521,30 @@
 	)
 	(global_label "+12V"
 		(shape input)
+		(at 55.245 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a0843d1-39a6-4099-89c7-df84cc265fa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1798 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
 		(at 101.6 128.27 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2119,6 +2588,132 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:R_0.125W")
+		(at 69.85 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03c0d988-07bb-4b46-8a5c-19363e139cdd")
+		(property "Reference" "R_{Choke}13"
+			(at 72.39 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.39 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/CRM0805_1206_2010.pdf"
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Valvano"
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns "
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRM0805-FX-1002ELF "
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "652-CRM0805FX1002ELF "
+			(at 69.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39dad822-85aa-4579-b8df-765198988e8b")
+		)
+		(pin "2"
+			(uuid "17673231-cd2a-46ec-b831-a3f9bdbf554c")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "R_{Choke}13")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2587,6 +3182,529 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "384a3911-91e0-453f-a8e6-42327934e1b0")
+		(property "Reference" "#PWR0106"
+			(at 69.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9009e615-7358-433e-9a7f-faf87c8a2533")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 142.875 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b139e76-c507-4d71-bb20-42bb87388ca2")
+		(property "Reference" "#PWR0109"
+			(at 80.01 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 147.955 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c7f12c6-88ce-47e9-906b-40e3b24fa474")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:LED")
+		(at 57.785 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c16d86d-c76c-4cf1-aa76-2f9911b4c293")
+		(property "Reference" "D2"
+			(at 59.69 95.5674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.69 98.1074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECE445L:LED_D5.0mm"
+			(at 57.785 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
+			(at 57.785 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 57.785 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "366d7373-b7a9-4cfa-968a-498666fc645a")
+		)
+		(pin "2"
+			(uuid "b43bb8d7-d48d-41c3-b4cd-3c6e8804214a")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c2154c8-b61f-4576-aba2-19d31d10d81b")
+		(property "Reference" "#PWR0108"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fae3046-5d91-4930-a476-c92afbf6d2e9")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:R_0.125W")
+		(at 56.515 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6048ec45-7b2e-4472-9fca-8cc689588cac")
+		(property "Reference" "R_{Choke}14"
+			(at 59.055 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "36.5k"
+			(at 59.055 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060336K5FKEA "
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-36.5K-E3 "
+			(at 56.515 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ba802fa-5814-4137-8308-e125d2aee09e")
+		)
+		(pin "2"
+			(uuid "d943eeed-e53d-4f90-a130-5429678f73f5")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "R_{Choke}14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ECE445L:LED")
+		(at 71.12 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6246a107-8d27-4aca-8502-f0c485d2f2fe")
+		(property "Reference" "D1"
+			(at 73.025 95.5674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 73.025 98.1074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ECE445L:LED_D5.0mm"
+			(at 71.12 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
+			(at 71.12 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 71.12 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10ca776a-9474-44f2-a09c-43578469abb6")
+		)
+		(pin "2"
+			(uuid "3b93d0b4-a3f3-44bb-a8ff-9fd36ee277c4")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 107.315 0)
 		(unit 1)
@@ -2659,6 +3777,85 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc5985a-fe49-4679-9fd3-5e9ef409c868")
+		(property "Reference" "TP_{GND}4"
+			(at 81.915 136.3979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.915 138.9379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 85.09 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0839362-bd6e-45ba-b996-fd8c3eba8158")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "TP_{GND}4")
 					(unit 1)
 				)
 			)
@@ -2744,6 +3941,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "979399fc-ac5f-4ed5-855a-518aeaebe1e4")
+		(property "Reference" "#PWR0105"
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "392c84cf-3744-4e0e-99e2-b0c27d7f3eba")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 104.775 95.885 270)
 		(unit 1)
@@ -2775,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE445L:WR-FSH_THT_2"
+		(property "Footprint" "ECE445L:696106003002"
 			(at 104.775 94.107 90)
 			(hide yes)
 			(show_name no)
@@ -2978,6 +4253,85 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 125.095 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef22ae9-1396-48f1-9413-90994e8c4096")
+		(property "Reference" "TP_{GND}3"
+			(at 81.915 120.5229 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 81.915 123.0629 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 85.09 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 125.095 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af9af7e3-ebb9-4936-873b-67335a131e86")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "TP_{GND}3")
 					(unit 1)
 				)
 			)
@@ -3338,6 +4692,84 @@
 			(project "ECE445L_Lab7"
 				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
 					(reference "12V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 56.515 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f92702e8-c05a-4520-b258-6f950103b28e")
+		(property "Reference" "#PWR0107"
+			(at 56.515 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.515 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 56.515 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab33afa1-de93-497d-b4e9-3f9818d32e43")
+		)
+		(instances
+			(project "ECE445L_Lab7"
+				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/120cc903-6d6c-4a77-ad9c-c9f63dede169"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
